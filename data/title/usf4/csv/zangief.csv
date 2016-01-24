@@ -1,0 +1,58 @@
+Move,Block,Damage,Stun,Meter Gain,Cancel Ability,Startup,Active,Recover,Frame Adv. Block,Frame Adv. Hit,Notes
+Close Light Punch,HL,40,50,20,C*Sp*Su,4,6,7,-1,2,
+Close Medium Punch,HL,90,100,40,Sp*Su,5,2,14,-2,1,
+Close Hard Punch,HL,140,200,60,-,7,4,20,-6,-1,
+Close Light Kick,HL,30,50,20,-,4,2,10,-1,2,
+Close Medium Kick,HL,90,100,40,Sp*Su,5,2,15,-3,0,
+Close Hard Kick,HL,140,200,60,-,7,4,21,-5,-1,
+Far Light Punch,HL,30,50,20,C*Sp*Su,4,2,7,3,6,
+Far Medium Punch,HL,70,100,40,-,4,2,10,2,5,
+Far Hard Punch,HL,140,200,60,-,12,3,18,-3,1,
+Far Light Kick,HL,30,50,20,Sp*Su,4,2,7,2,5,
+Far Medium Kick,HL,90,100,40,-,7,6,18,-10,-7,
+Far Hard Kick,HL,140,200,60,-,11,4,16,-2,2,
+Crouch Light Punch,HL,20,50,20,C*Sp*Su,4,3,6,2,5,
+Crouch Medium Punch,HL,80,100,40,-,8,5,12,-3,3,Forces stand
+Crouch Hard Punch,HL,120,200,60,Su,12,4,16,-2,2,
+Crouch Light Kick,L,40,50,20,Sp*Su,4,3,7,1,4,Low attack
+Crouch Medium Kick,L,90,100,40,-,9,4,15,-5,-2,Low attack
+Crouch Hard Kick,L,120,200,60,-,9,5,18,-5,D,"Low attack, cannot fast recover"
+Jump Up Light Punch,H,60,50,20,-,5,5,-,-,-,
+Jump Up Medium Punch,H,90,100,40,-,7,4,-,-,-,
+Jump Up Hard Punch,H,140,200,60,-,10,6,-,-,-,
+Jump Up Light Kick,H,50,50,20,-,7,4,-,-,-,
+Jump Up Medium Kick,H,90,100,40,-,9,5,-,-,-,
+Jump Up Hard Kick,H,120,200,60,-,9,6,-,-,-,
+Jump Toward Light Punch,H,60,50,20,-,6,5,-,-,-,
+Jump Toward Medium Punch,H,90,100,40,-,7,3,-,-,-,
+Jump Toward Hard Punch,H,120,200,60,-,11,6,-,-,-,
+Jump Toward Light Kick,H,50,50,20,-,7,4,-,-,-,
+Jump Toward Medium Kick,H,80,100,40,-,9,10,-,-,-,
+Jump Toward Hard Kick,H,120,200,60,-,11,6,-,-,-,
+Down + Hard Punch (Air),H,100,150,60,-,6,7,-,-,-,
+Down + Light Kick (Air),H,50,50,20,-,8,6,-,-,-,
+Up + Medium Punch (Air),H,100,500,40,-,4,6,-,-,-,
+Up + Hard Punch (Air),H,120,600,60,-,6,12,-,-,-,
+Down Forward + Hard Kick,L,120,200,60,-,14,7,22,-11,D,"Low attack, cannot fast recover"
+Focus Attack Level 1,HL,90,100,20,-,23,5,32,-21,-21,
+Focus Attack Level 2,HL,120,150,40,-,17+16,5,32,-15,D,
+Focus Attack Level 3,-,170,200,60,-,65,5,32,D,D,
+Forward Throw,0.9,160,180,40,-,3,2,20,-,D,Throw range 0.9
+Back Throw,0.9,160,180,40,-,3,2,20,-,D,Throw range 0.9
+Spinning Piledriver Light Punch,1.65,180,100,40/100,-,2,2,52,-,D,Throw range 1.65
+Spinning Piledriver Medium Punch,1.45,200,150,40/100,-,2,2,50,-,D,Throw range 1.45
+Spinning Piledriver Hard Punch,1.35,250,200,40/100,-,2,2,48,-,D,Throw range 1.35
+Spinning Piledriver EX,1.35,200,150,-250/0,-,4,2,47,-,D,"1~5 , Throw range 1.35"
+Banishing Flat Light Punch,HL,120,100,30/30,Su,11,2,21,-7,-5,6~20
+Banishing Flat Medium Punch,HL,130,150,30/30,Su,13,2,22,-8,-6,8~22
+Banishing Flat Hard Punch,HL,140,200,30/30,Su,16,2,23,-9,-7,9~25
+Banishing Flat EX,HL,80*50,50*50,-250/0,Su,13,1*1,27,-9,1,"1~13f invincible, 14~22 , Pursuit Property"
+Lariat Punch,HL,120*140,150*200,30/40,Su,4,2(4) 7(2) 7(3) 9(2) 8(4) 3,14,-44,D,"1~3 , 1~54 , 6~54"
+Lariat Kick,HL,110*130,100*150,20/30,Su,4,2(4) 5(3) 8(4) 3,14,-22,D,"1~32 , 1~32"
+Atomic Suplex,1,220,200,30/140,-,2,2,45,-,D,Throw range 1.0
+Atomic Suplex EX,1,240,200,-250/0,-,2,2,45,-,D,", Throw range 1.0"
+Flying Powerbomb,0.9,200,150,30/80,-,1,2,45,-,D,"Throw range: light 2.9, medium 3.2, hard 1.2"
+Flying Powerbomb EX,0.9,220,200,-250/0,-,1,2,45,-,D,", Throw range 5.0"
+Super,1.2,450,0,-1000/0,-,1+0,2,46,-,D,"1, Throw range 1.2"
+Ultra 1,1.4,520,0,0/0,-,1+0,2,46,-,D,"1, Throw range 1.4"
+Ultra 2,0.95,450,0,0/0,-,0+3,,58,-,D,

@@ -1,0 +1,65 @@
+Move,Block,Damage,Stun,Meter Gain,Cancel Ability,Startup,Active,Recover,Frame Adv. Block,Frame Adv. Hit,Notes
+Close Light Punch,HL,30,50,20,Sp*Su,4,2,10,-1,2,
+Close Medium Punch,HL,80,100,40,Su,6,2,10,2,5,
+Close Hard Punch,HL,110[90],200[150],60,Su,7,4,22,-7,-1,Forces stand
+Close Light Kick,HL,40,50,20,Sp*Su,4,3,10,-2,1,
+Close Medium Kick,HL,40*40,50*50,40*20,Su-,5,2(3)2,12,0,3,1st hit cancellable
+Close Hard Kick,HL,100[80],200[150],60,Su,7,6,19,-6,-1,
+Far Light Punch,HL,30,50,20,Sp*Su,3,2,9,0,3,
+Far Medium Punch,HL,80,100,40,Su,7,4,9,1,4,
+Far Hard Punch,HL,120,200,60,-,7,6,20,-6,-1,
+Far Light Kick,HL,30,50,20,Su,5,2,12,-3,0,
+Far Medium Kick,HL,90,100,40,Su,5,2,19,-7,-4,
+Far Hard Kick,HL,100[80],200[150],60,-,3,6,23,-10,-5,
+Crouch Light Punch,HL,30,50,20,Sp*Su,4,2,9,0,3,
+Crouch Medium Punch,HL,90,100,40,Su,7,4,15,-5,-2,
+Crouch Hard Punch,HL,100,200,60,Su,8,4,25,-10,-4,
+Crouch Light Kick,L,30,50,20,Sp*Su,4,3,7,1,4,Low attack
+Crouch Medium Kick,L,70,100,40,Sp*Su,5,2,11,1,4,Low attack
+Crouch Hard Kick,L,90,150,60,Su,6,5,21,-7,D,"Low attack, cannot fast recover"
+Jump Up Light Punch,H,40,50,20,-,5,7,-,-,-,
+Jump Up Medium Punch,H,70,100,40,-,6,3,-,-,-,
+Jump Up Hard Punch,H,120,200,60,-,4,3,-,-,-,
+Jump Up Light Kick,H,40,50,20,-,4,3,-,-,-,
+Jump Up Medium Kick,H,60,100,40,-,5,5,-,-,-,
+Jump Up Hard Kick,H,120,200,60,-,7,7,-,-,-,
+Jump Toward Light Punch,H,40,50,20,-,5,7,-,-,-,
+Jump Toward Medium Punch,H,70,100,40,-,6,5,-,-,-,
+Jump Toward Hard Punch,H,90,200,60,-,5,4,-,-,-,
+Jump Toward Light Kick,H,40,50,20,-,5,5,-,-,-,
+Jump Toward Medium Kick,H,60,100,40,-,5,5,-,-,-,
+Jump Toward Hard Kick,H,110,200,60,-,7,6,-,-,-,
+Back or Forward + Medium Punch (Close),HL,50*40,50*50,40*20,Sp*Su-,7,2(1)5,11,-2,3,1st hit cancellable
+Overhead,H,50*40,50*50,40*20,-,25,2(1)4,11,-1,4,Mid attack
+Down Forward + Hard Punch,L,100,200,60,-,10,16,16,-11,D,"Low attack, cannot fast recover"
+Forward Hop,-,-,-,-,-,-,-,22,-,-,
+Back Hop,-,-,-,-,-,-,-,29,-,-,
+Coward Crouch,-,-,-,-,Sp*Su,-,-,53,-,-,
+Coward Crouch,,,,,Sp*Su,,,90,,,
+Focus Attack Level 1,HL,60,100,20,-,20,2,38,-24,-24,
+Focus Attack Level 2,HL,90,150,40,-,17+11,2,38,-18,D,
+Focus Attack Level 3,-,150,200,60,-,63,2,39,D,D,
+Forward Throw,0.93,130,140,40,-,3,2,20,-,D,Throw range 0.9
+Back Throw,0.93,120,120,40,-,3,2,20,-,D,Throw range 0.9
+Rolling Attack Light Punch,HL,100,100,30/30,Su,6,18,4+2,-24,-15,"Armor Break, charge 55f"
+Rolling Attack Medium Punch,HL,110,150,30/30,Su,6,33,4+2,-24,-15,"Armor Break, charge 55f"
+Rolling Attack Hard Punch,HL,120,200,30/30,Su,6,33,4+3,-24,-15,"Armor Break, charge 55f"
+Rolling Attack EX,HL,110,150,-250/0,Su,6,33,4+3,-24,-15,"1~38 , Armor Break, charge 55f"
+Backstep Rolling Light Kick,HL,110,200,30/40,-,28,25,6,-,D,charge 55f
+Backstep Rolling Medium Kick,HL,120,200,30/40,-,28,29,6,-,D,charge 55f
+Backstep Rolling Hard Kick,HL,130,200,30/40,-,28,33,6,-,D,charge 55f
+Backstep Rolling EX,HL,120,200,-250/0,-,28,33,6,-,D,"1~22f invincible, 23~27f cannot be thrown, charge 55f"
+Anti Air Rolling Light Kick,HL,100,200,30/30,-,4,18,40+5,-21,-17,charge 55f
+Anti Air Rolling Medium Kick,HL,110,200,30/30,-,4,15,42+10,-21,-17,charge 55f
+Anti Air Rolling Hard Kick,HL,120,200,30/30,-,4,12,46+4,-21,-17,charge 55f
+Anti Air Rolling EX,HL,120,200,-250/0,-,4,18,47+10,-21,-17,"1~5f invincible, charge 55f"
+Electricity Light Punch,HL,120,200,20/20,Su,5,{4(4)}x3*4,9,5,D,
+Electricity Medium Punch,HL,130,200,20/20,Su,7,{2(2)}x7*2,9,8,D,
+Electricity Hard Punch,HL,140,200,20/20,Su,10,{1(1)}x16*2,9,10,D,
+Electricity EX,HL,150,200,-250/0,Su,5,{1(1)}x16*2,11,8,D,
+Super Light Punch,HL,100x5,0,-1000/0,-,1+4,16*1x14,12,-34,D,"1~5f invincible, Pursuit Property, charge 55f"
+Super Medium Punch,HL,100x5,0,-1000/0,-,1+4,22*1x14,12,-34,D,"1~5f invincible, Pursuit Property, charge 55f"
+Super Hard Punch,HL,100x5,0,-1000/0,-,1+4,22*1x14,19,-34,D,"1~5f invincible, Pursuit Property, charge 55f"
+Ultra 1,L * H * H * HLx4,0*120*125x3,0,0/0,-,0+4,2(20) 26 * 1x20,17,-41,D,"1~27f invincible, 2nd hit , 1st hit low attack, 2nd hit mid attack, Pursuit Property, charge 55f"
+Ultra 2 Kick,L,120x2 * 90x3,0,0/0,-,0+12,2(7) 2(33) 90,31,-57,-,"1~10f invincible,"
+Ultra 2 Punch,,30 * 195 [470],0,0/0,-,0+7,55(10)6,80,-,-,"1-6f invincible,"

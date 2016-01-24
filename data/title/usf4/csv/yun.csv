@@ -1,0 +1,63 @@
+Move,Block,Damage,Stun,Meter Gain,Cancel Ability,Startup,Active,Recover,Frame Adv. Block,Frame Adv. Hit,Notes
+Close Light Punch,HL,30,50,20,C*Sp*Su,3,2,7,+3,+6,
+Close Medium Punch,HL,60,100,40,Sp*Su,4,4,10,+2,+4,
+Close Hard Punch,HL,70*50,80*120,30*30,Sp*Su,6,1*3,20,-5,0,Forces stand
+Close Light Kick,HL,30,50,20,Sp*Su,4,3,7,+1,+4,
+Close Medium Kick,HL,60,80,40,J,7,4,15,-5,-,Juggles opponent
+Close Hard Kick,HL,110,200,60,-,12,4,21,-7,-,Knocks down
+Far Light Punch,HL,20,50,20,C*Sp*Su,4,2,6,+3,+6,
+Far Medium Punch,HL,50,80,40,Sp*Su,5,5,14,-5,-2,
+Far Hard Punch,HL,120,200,60,-,9,3,20,-5,-1,
+Far Light Kick,HL,30,50,20,Sp*Su,4,3,7,+1,+4,
+Far Medium Kick,HL,70,100,40,-,6,3,13,-2,+1,
+Far Hard Kick,HL,110,200,60,-,12,4,16,-4,-,Knocks down
+Crouch Light Punch,HL,30,50,20,C*Sp*Su,3,2,8,+2,+4,
+Crouch Medium Punch,HL,60,100,40,Sp*Su,5,4,6,+2,+6,
+Crouch Hard Punch,HL,50*60,100*80,30*30,Sp*Su,6,2(4)4,17,-3,+1,Forces stand
+Crouch Light Kick,L,20,50,20,C*Sp*Su,4,2,8,+1,+4,Low block
+Crouch Medium Kick,L,60,100,40,Sp*Su,5,3,14,-3,0,Low block
+Crouch Hard Kick,L,80,100,60,-,10,4,23,-12,-,Low block
+Jump Toward Light Punch,H,35,50,20,-,3,13,-,-,-,
+Jump Toward Medium Punch,H,80,100,60,-,4,6[8],-,-,-,
+Jump Toward Hard Punch,H,110,200,60,-,6,4,-,-,-,
+Jump Toward Light Kick,H,40,50,20,-,4,10,-,-,-,
+Jump Toward Medium Kick,H,70,100,40,-,7,8,-,-,-,
+Jump Toward Hard Kick,H,100,200,60,-,5,4,-,-,-,
+Jump Up Hard Punch,H,110,200,60,,5,5,,-,-,
+Overhead,H,70,100,40,-,20,4,13,-1,+2,"6~23f low invuln, 7~23f airborne"
+Step Palm,HL,110,200,60,-,14,6,20,-8,-,
+Dive Kick (Light),HL,60,100,20,-,7,-,45,-3,+3,
+Dive Kick (Medium),HL,60,100,20,-,8,-,6,-3,+3,
+Dive Kick (Hard),HL,60,100,20,-,7,-,10,-4,+2,
+Target Combo 5 (LP -> LK),HL,30,50,20,-,4,2,17,+1,+4,
+Target Combo 5 (LP -> LK -> MP),HL,50,80,40,Sp*Su,5,5,7,-2,-1,
+Target Combo 4 (MP -> HP),HL,50,50,30,-,9,3,14,-3,+1,
+Target Combo 4 (MP -> HP -> B+HP),HL,75,62,30,Su,13,5,12,-8,-,
+Target Combo 2 (cr.MP -> cr.HP),HL,40*50,50*100,30*30,Su,5,2(4)4,-,-4,0,
+Target Combo 3 (cr.HK -> HK),HL,70,100,40,-,7,4,-,-9,-,
+Target Combo 1 (j.LP -> j.F+HP),H,90,150,60,-,3,5,-,-,-,
+Focus Attack Level 1,HL,60,100,20,-,21,2,35,-21,-21,
+Focus Attack Level 2,HL,80,150,40,-,17+12,2,35,-15,-,
+Focus Attack Level 3,UB,140,200,60,-,65,2,35,-,-,
+Forward Throw,0.9,110,150,40,-,3,2,20,-,-,Range 0.9
+Back Throw,0.9,130,110,40,-,3,2,20,-,-,Range 0.9
+Lunge Punch Light Punch,HL,90,150,30/30,Su,9,7,44,-9,-,"9~19f low invincible, 9~f airborne"
+Lunge Punch Medium Punch,HL,110,150,30/30,Su,14,9,46,-7,-,"14~22f low invincible, 14~f airborne"
+Lunge Punch Hard Punch,HL,130,150,30/30,Su,17,11,48,-9,-,"17~30f low invincible, 17~f airborne"
+Lunge Punch EX,HL,80*60,100*100,-250/0,Su,17,7*2,40,+1,-,"17~25f low invincible, 17~f airborne"
+Shoulder Light Punch,HL,100,200,30/60,Su,16,6,22,-3,+2,4~18f high invincible
+Shoulder Medium Punch,HL,125,200,30/60,Su,21,5,23,-6,-,6~22f high invincible
+Shoulder Hard Punch,HL,140,200,30/60,Su,25,4,28,-7,-,"4~13f high invincible, first hit can juggle"
+Shoulder EX,HL,80*70,150*100,-250/0,Su,13,1(1)4,30,-6,-,
+Palm Feint,-,-,-,-,-,-,-,,-,,
+Palm,HL,160,250,30/60,Su,23,15,,+1,,
+Palm EX,HL,160,300,30/60,Su,23,13,,-13,,1~20f low invincible
+Up Kicks Light Kick,HL,70*50,100*50,30/20*20,-,5,2(6)4,20,-5,-,"1~7f invincible, 4~f airborne"
+Up Kicks Medium Kick,HL,70*60,100*50,30/30*20,-,6,2(6)4,25,-23,-,"1~7f lower body invuln, 5~f airborne"
+Up Kicks Hard Kick,HL,70*70,100*100,30/30*30,-,8,2(6)4,27,-29,-,"1~7f invincible, 7~f airborne"
+Up Kicks EX,HL,60*40,100*100,-250/0,-,4,2(6)4,25,-23,-,"1~5f invincible, 3~f airborne"
+Flip Grab,1.1,0,0,20/30,-,7,2,26,-,+7,Forces stand
+Flip Grab EX,1.3,0,0,-250/0,-,5,2,26,-,+7,"Forces stand, 1~6f throw invuln"
+Super,-,-,-,-1000/0,-,1+0,430,29,-,-,"1~3f invulnerable, changes move properties"
+Ultra 1,HL,105*45x2*135[375],0,0/0,-,0+9,3(14) 3(20) 4(34) 3,50,-21,-,1~11f invincible
+Ultra 2,HL,60*45x3*255,0,0/0,-,0+10,3(6) 3(7) 3(10) 3(9) 1,47,-26,-,"1~12f invincible, 13~19f projectile invuln"

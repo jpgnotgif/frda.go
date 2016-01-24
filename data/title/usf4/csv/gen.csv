@@ -1,0 +1,76 @@
+Move,Block,Damage,Stun,Meter Gain,Cancel Ability,Startup,Active,Recover,Frame Adv. Block,Frame Adv. Hit,Notes,Extra
+Light Punch,HL,25,50,20,C*Sp*Su,3,2,7,3,5,mantis
+Medium Punch,HL,55,100,40,Sp*Su,4,5,8,5,6,Far version 80 damage,mantis
+Hard Punch,HL,70*40,100*100,40*20,Sp*Su,5,2*4,17,-3,1,"Forces stand, 1st hit cancellable",mantis
+Light Kick,HL,40,50,20,Su,5,4,13,-3,-2,Far version 40 damage,mantis
+Medium Kick,HL,60,100,40,Sp*Su,5,3,17,-2,-1,,mantis
+Hard Kick,HL,110,200,60,-,8,2,20,-4,0,,mantis
+Crouch Light Punch,HL,20,50,20,C*Sp*Su,4,2,7,2,5,,mantis
+Crouch Medium Punch,HL,70,100,40,Sp*Su,7,4,11,-1,1,,mantis
+Crouch Hard Punch,HL,100,200,60,-,7,4,19,-5,-1,,mantis
+Crouch Light Kick,L,30,50,20,C*Sp*Su,4,2,8,1,4,Low attack,mantis
+Crouch Medium Kick,L,70,100,40,Sp*Su,7,3,14,-3,-1,Low attack,mantis
+Crouch Hard Kick,L,85,100,60,-,8,3,22,-7,D,"Low attack, cannot fast recover",mantis
+Jump Light Punch,H,40,50,20,-,4,7,-,-,-,,mantis
+Jump Medium Punch,H,70,100,40,-,5,5,-,-,-,,mantis
+Jump Hard Punch,H,100,200,60,-,6,4,-,-,-,,mantis
+Jump Light Kick,H,50,50,20,-,5,8,-,-,-,"Mid attack, straight jump 30 damage",mantis
+Jump Medium Kick,H,80[70],100,40,-,4,8,-,-,-,"Mid attack, straight jump 80 damage",mantis
+Jump Hard Kick,H,100,200,60,-,6,3,-,-,-,,mantis
+Switch style,-,-,-,-,-,-,-,5,-,-,,mantis
+Focus Attack Level 1,HL,60,100,20,-,21,2,35,-21,-21,,mantis
+Focus Attack Level 2,HL,90,150,40,-,17+12,2,35,-15,D,,mantis
+Focus Attack Level 3,-,150,200,60,-,65,2,35,D,D,,mantis
+Forward Throw,0.9,130,100,40,-,3,2,20,-,D,Throw range 0.95,mantis
+Back Throw,1,120,100,40,-,3,2,20,-,D,Throw range 1.05,mantis
+Rapid Slap Light Punch,HL,16xn,20xn,10/5xN,Su,5,3(5) 3(5) 3(5) 3,17,5,9,"Armor Break,",mantis
+Rapid Slap Medium Punch,HL,16xn,20xn,10/5xN,Su,4,3(3) 3(3) 3(3) 3,17,5,9,"Armor Break,",mantis
+Rapid Slap Hard Punch,HL,16xn,20xn,10/5xN,Su,3,3(3) 3(3) 3(3) 3,17,5,9,"Armor Break,",mantis
+Rapid Slap EX,HL,16xn,20xn,-250/0,Su,3,3(3) 3(3) 3(3) 3,17,5,9,"Armor Break,",mantis
+Air Kicks Light Kick,HL,100*10x4*20,80*10x5,20/20*5x5,-,5,15,14+8,-35,D,"1~4f strike invincible,",mantis
+Air Kicks Medium Kick,HL,100*10x5*40,80*10x6,20/20*5x6,-,7,15,17+8,-35,D,"1~4f strike invincible,",mantis
+Air Kicks Hard Kick,HL,100*10x6*90,80*10x6*80,20/20*5x7,-,7,15,18+8,-35,D,"1~4f strike invincible,",mantis
+Air Kicks EX,HL,100*10x6*90,80*10x6*80,-250/0,-,7,15,18+8,-35,D,1~4f strike invincible,mantis
+Zanei,HL,20*280,0,-1000/0,-,1+6,16,66,-61,D,"Invincible Light Punch 1~11/Medium Punch 1~8/Hard Punch 1~5, Armor Break,",mantis
+Ultra 1,HL,405,0,0/0,-,1+10,11,59,-49,D,"1~10f invincible, Armor Break",mantis
+Ultra 2,HL,23*420,0,0/0,-,1+8,2(6) 2(6) 2(6) 2,33,-10,-,1~8f invincible,mantis
+Light Punch,HL,30,50,20,C*Sp*Su,4,3,13,-4,-2,,crane
+Medium Punch,L,50*50,50*50,20*20,-,18,2*2,22,-3,1,Mid attack,crane
+Hard Punch,L*HL,100*100,100*100,40*20,-,17,2*4,19,-5,0,"2nd hit forces stand, 1st hit low attack",crane
+Light Kick,HL,40,50,20,Su,8,4,13,-3,-2,,crane
+Medium Kick,HL,100,100,40,-,7,4,22,-5,-1,,crane
+Hard Kick,HL,70*50,100*100,40*20,-,5,3(9)2,22,-6,-2,,crane
+Crouch Light Punch,HL,40,50,20,Su,4,2,9,0,3,,crane
+Crouch Medium Punch,HL,70,100,40,Sp*Su,5,4,13,-3,-1,,crane
+Crouch Hard Punch,HL,180,300,60,-,21,5,16,-3,1,,crane
+Crouch Light Kick,L,30,50,20,Sp*Su,5,6,16,-8,D,"Low attack,",crane
+Crouch Medium Kick,L,80,100,40,Su,8,3,21,-3,-1,"Low attack,",crane
+Crouch Hard Kick,HL,120,150,60,-,5,3,31,-16,-12,,crane
+Jump Light Punch,H,50,50,20,-,4,7,-,-,-,,crane
+Jump Medium Punch,H,80[90],100,40,-,4,5,-,-,-,straight jump 80 damage,crane
+Jump Hard Punch,H,100[110],200,60,-,5,7,-,-,-,straight jump 100 damage,crane
+Jump Light Kick,H,40,50,20,-,4,9,-,-,-,,crane
+Jump Medium Kick,H,90[70],100,40,-,4,8,-,-,-,straight jump 90 damage,crane
+Jump Hard Kick,H,100,200,60,-,6,3,-,-,-,,crane
+Switch style,-,-,-,-,-,-,-,5,-,-,,crane
+Overhead (Shakudan),H,50,50,20,-,4,2,-,-,-,Pursuit Property,crane
+Focus Attack Level 1,HL,60,100,20,-,21,2,35,-21,-21,,crane
+Focus Attack Level 2,HL,90,150,40,-,17+12,2,35,-15,D,,crane
+Focus Attack Level 3,-,150,200,60,-,65,2,35,D,D,,crane
+Forward Throw,0.9,130,100,60,-,3,2,20,-,,,crane
+Back Throw,1,120,100,40,-,3,2,20,-,D,Throw range 1.05,crane
+Rolling Attack Light Punch,HL,20x2*60,20x2*80,20/8x2*20,Su,6,3(5) 1(5) 4,20,-3,1,1~3 hits cancellable,crane
+Rolling Attack Medium Punch,HL,20x3*65,20x3*80,20/8x3*20,Su,6,3(7) 3(11) 1(5) 4,20,-3,1,1~3 hits cancellable,crane
+Rolling Attack Hard Punch,HL,20x4*70,20x4*80,20/8x4*20,Su,6,3(7) 3(12) 3(11) 1(5) 4,20,-3,1,1~3 hits cancellable,crane
+Rolling Attack EX,HL,20x4*80,50x5,-250/0,Su,6,3(7) 3(12) 3(11) 1(5) 4,20,-3,1,"1~45f projectile invincible, 1~5 hits cancellable",crane
+Wall Dive,-,-,-,-,-,-,-,27,-,-,,crane
+Wall Dive EX,-,-,-,-250/0,-,-,-,27,-,-,,crane
+Wall Dive Stop,-,-,-,-,-,-,-,30,-,-,,crane
+Wall Dive Close,H,100,150,30/50,-,13,6,13,-8,D,", Armor Break",crane
+Wall Dive Far,H,100,150,30/50,-,12,7,13,-13,D,", Armor Break",crane
+Wall Dive Ceiling,-,-,-,-,-,-,-,64,-,-,,crane
+Wall Dive Ceiling Drop,H,100,150,30/50,-,3,15,13,-,D,", Armor Break",crane
+Wall Dive Super Close,H,100,150,30/50,-,3,14,1+12,-,D,", Armor Break",crane
+Super,-,320,0,-1000/0,-,1+1,19,16+16,-,D,"Invincible Light Kick 1~12/Medium Kick 1~8/Hard Kick 1~5, Pursuit Property",crane
+Ultra 1,-,398,0,0/0,-,0+11,8,25+28,-,D,"1~11f invincible, Pursuit Property",crane
+Ultra 2,H,428,0,0/0,-,0+10,until ground,26,-,-,block high,crane

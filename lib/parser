@@ -1,0 +1,203 @@
+#! /usr/bin/env ruby
+
+require 'logger'
+require 'csv'
+require 'json'
+
+@key = {
+  'Close Light Punch'         => :lp,
+  'Close LP'                  => :lp,
+  'Close Medium Punch'        => :mp,
+  'Close MP'                  => :mp,
+  'Close Hard Punch'          => :hp,
+  'Close HP'                  => :hp,
+  'Close Light Kick'          => :lk,
+  'Close LK'                  => :lk,
+  'Close Medium Kick'         => :mk,
+  'Close MK'                  => :mk,
+  'Close Hard Kick'           => :hk,
+  'Close HK'                  => :hk,
+  'Far Light Punch'           => :lp,
+  'Far LP'                    => :lp,
+  'Far Medium Punch'          => :mp,
+  'Far MP'                    => :mp,
+  'Far Hard Punch'            => :hp,
+  'Far HP'                    => :hp,
+  'Far Light Kick'            => :lk,
+  'Far LK'                    => :lk,
+  'Far Medium Kick'           => :mk,
+  'Far MK'                    => :mk,
+  'Far Hard Kick'             => :hk,
+  'Far HK'                    => :hk,
+  'Crouch Light Punch'        => :lp,
+  'Crouch LP'                 => :lp,
+  'Crouch Medium Punch'       => :mp,
+  'Crouch MP'                 => :mp,
+  'Crouch Hard Punch'         => :hp,
+  'Crouch HP'                 => :hp,
+  'Crouch Light Kick'         => :lk,
+  'Crouch LK'                 => :lk,
+  'Crouch Medium Kick'        => :mk,
+  'Crouch MK'                 => :mk,
+  'Crouch Hard Kick'          => :hk,
+  'Crouch HK'                 => :hk,
+  'Jump Up Light Punch'       => :lp,
+  'Jump Up LP'                => :lp,
+  'Jump Up Medium Punch'      => :mp,
+  'Jump Up MP'                => :mp,
+  'Jump Up Hard Punch'        => :hp,
+  'Jump Up HP'                => :hp,
+  'Jump Up Light Kick'        => :lk,
+  'Jump Up LK'                => :lk,
+  'Jump Up Medium Kick'       => :mk,
+  'Jump Up MK'                => :mk,
+  'Jump Up Hard Kick'         => :hk,
+  'Jump Up HK'                => :hk,
+  'Jump Toward Light Punch'   => :lp,
+  'Jump Toward LP'            => :lp,
+  'Jump Toward Medium Punch'  => :mp,
+  'Jump Toward MP'            => :mp,
+  'Jump Toward Hard Punch'    => :hp,
+  'Jump Toward HP'            => :hp,
+  'Jump Toward Light Kick'    => :lk,
+  'Jump Toward LK'            => :lk,
+  'Jump Toward Medium Kick'   => :mk,
+  'Jump Toward MK'            => :mk,
+  'Jump Toward Hard Kick'     => :hk,
+  'Jump Toward HK'            => :hk
+}
+
+@schema = {
+  lp: {
+    s: {},
+    cs: {},
+    cr: {},
+    nj: {},
+    dj: {}
+  },
+  mp: {
+    s: {},
+    cs: {},
+    cr: {},
+    nj: {},
+    dj: {}
+  },
+  hp: {
+    s: {},
+    cs: {},
+    cr: {},
+    nj: {},
+    dj: {}
+  },
+  lk: {
+    s: {},
+    cs: {},
+    cr: {},
+    nj: {},
+    dj: {}
+  },
+  mk: {
+    s: {},
+    cs: {},
+    cr: {},
+    nj: {},
+    dj: {}
+  },
+  hk: {
+    s: {},
+    cs: {},
+    cr: {},
+    nj: {},
+    dj: {}
+  },
+}
+
+@logger = Logger.new(STDOUT)
+@logger.level = Logger::INFO
+
+class FrameDatum
+  attr_reader :startup, :active, :recovery, :block_advantage, :hit_advantage
+  attr_reader :movement_name, :block, :damage, :stun, :meter_gain, :cancel_ability, :notes
+
+  def initialize(row)
+    @movement_name    = row[0]
+    @block            = row[1]
+    @damage           = row[2]
+    @stun             = row[3]
+    @meter_gain       = row[4]
+    @cancel_ability   = row[5]
+    @startup          = value(row[6])
+    @active           = value(row[7])
+    @recovery         = value(row[8])
+    @block_advantage  = value(row[9])
+    @hit_advantage    = value(row[10])
+  end
+
+  def value(attr)
+    attr =~ /\d+/ ? attr : ''
+  end
+
+  def to_json
+    { s: @startup, a: @active, r: @recovery, ba: @block_advantage, ha: @hit_advantage }
+  end
+end
+
+def key(name)
+  @key[name]
+end
+
+def schema_key(name)
+  case name
+  when /Close/
+    :cs
+  when /Far/
+    :s
+  when /Crouch/
+    :cr
+  when /Jump Up/
+    :nj
+  when /Jump Toward/
+    :dj
+  else
+    name ? name.downcase : ''
+  end
+end
+
+# start
+file = ARGV[0]
+
+unless file
+  @logger.error("#{ARGV[0].inspect}: File is null")
+  exit(1)
+end
+
+unless File.exists?(file)
+  @logger.error("#{file.inspect}: File not found")
+  exit(1)
+end
+
+name = File.basename(file, '.csv')
+path = File.split(file).first
+
+@logger.info("Generating data for #{name.inspect}")
+
+CSV.foreach(file, headers: {first_row: true}) do |row|
+  movement_name = row[0]
+
+  frame_datum = FrameDatum.new(row)
+  k = key(movement_name)
+  sk = schema_key(movement_name)
+
+  json = frame_datum.to_json
+
+  unless @schema[k]
+    @schema[sk] = json
+  else
+    @schema[k][sk] = json
+  end
+end
+
+@logger.info("Writing data to #{name}.json")
+json_path = File.join(path, "#{name}.json")
+
+File.open(json_path, "w+") { |f| f.write(@schema.to_json) }

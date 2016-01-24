@@ -1,0 +1,58 @@
+Move,Block,Damage,Stun,Meter Gain,Cancel Ability,Startup,Active,Recover,Frame Adv. Block,Frame Adv. Hit,Notes
+Close Light Punch,HL,20,50,20,C*Sp*Su,3,2,7,2,5,
+Close Medium Punch,HL,60,100,40,Sp*Su,4,3,14,-3,0,
+Close Hard Punch,HL,120[70],200[150],60,Sp*Su,5,4,15,-1,4,Forces stand
+Close Light Kick,HL,30,50,20,C,3,3,8,0,3,
+Close Medium Kick,HL,60,100,40,-,5,2,16,-4,-1,
+Close Hard Kick,HL,130,200,60,-,6,3,18,-3,1,
+Far Light Punch,HL,30,50,20,C*Sp*Su,4,2,7,2,5,
+Far Medium Punch,HL,80,100,40,Sp*Su,5,4,14,-4,-1,
+Far Hard Punch,HL,100,200,60,Su,5,3,14,1,5,
+Far Light Kick,HL,40,50,20,C,5,2,9,0,3,
+Far Medium Kick,HL,70,100,40,-,7,4,12,-2,1,
+Far Hard Kick,HL,110,200,60,-,13,5,14,-1,3,
+Crouch Light Punch,HL,30,50,20,C*Sp*Su,4,2,8,1,4,
+Crouch Medium Punch,HL,70,100,40,Sp*Su,4,5,10,-1,2,
+Crouch Hard Punch,HL,100[70],200[150],60,-,5,4,23,-9,-4,Forces stand
+Crouch Light Kick,L,30,50,20,C,4,2,9,0,3,Low attack
+Crouch Medium Kick,L,70,100,40,-,7,4,14,-4,-1,Low attack
+Crouch Hard Kick,L,100*110,100*100,60,Su,6,4(20)4,17,-3,D,"Low attack, 1st hit cancellable, cannot fast recover"
+Jump Up Light Punch,H,50,50,20,-,5,2,-,-,-,
+Jump Up Medium Punch,H,80,100,40,-,7,4,-,-,-,
+Jump Up Hard Punch,H,100,200,60,-,7,3,-,-,-,
+Jump Up Light Kick,H,40,50,20,-,7,6,-,-,-,
+Jump Up Medium Kick,H,80,100,40,-,7,6,-,-,-,
+Jump Up Hard Kick,H,100,200,60,-,6,3,-,-,-,
+Jump Toward Light Punch,H,50,50,20,-,6,6,-,-,-,
+Jump Toward Medium Punch,H,80,100,40,-,5,5,-,-,-,
+Jump Toward Hard Punch,H,100,200,60,-,5,5,-,-,-,
+Jump Toward Light Kick,H,30,50,20,-,5,5,-,-,-,
+Jump Toward Medium Kick,H,60,100,40,-,5,6,-,-,-,
+Jump Toward Hard Kick,H,100,200,60,-,6,5,-,-,-,
+Overhead Foward + Medium Punch,H,80,100,40,-,15,3,14,-3,0,Mid attack
+Target Combo 1,H,90,200,60,-,15,3,14,-3,0,Mid atack
+Forward + Hard Punch,HL,120,200,60,-,8,3,15,0,4,
+Back or Forward + Light Kick,HL,50,50,20,-,7,4,15,-8,-3,
+Back or Forward + Medium Kick,HL,60,100,40,-,11,4,14,-4,1,
+Back or Forward + Hard Kick (Close),HL,100,200,60,-,16,6,12,0,4,
+Down Towards + Hard Kick,HL,110,200,60,-,11,2,17,-1,D,
+Focus Attack Level 1,HL,60,100,20,-,21,2,35,-21,-21,
+Focus Attack Level 2,HL,80,150,40,-,17+12,2,35,-15,D,
+Focus Attack Level 3,-,140,200,60,-,65,2,35,D,D,
+Forward Throw,0.9,120,100,40,-,3,2,20,-,D,Throw range 0.9
+Back Throw,0.9,120,80,40,-,3,2,20,-,D,Throw range 0.9
+Forward Air Throw,1.25,150,150,40,-,4,2,-,-,D,Throw range 1.25
+Back Air Throw,1.25,150,150,40,-,4,2,-,-,D,Throw range 1.25
+Sonic Boom Light Punch,HL,50,50,10/20,Su,9,-,29,4,10,charge 55f
+Sonic Boom Medium Punch,HL,50,50,10/20,Su,9,-,31,2,8,charge 55f
+Sonic Boom Hard Punch,HL,50,50,10/20,Su,9,-,33,0,6,charge 55f
+Sonic Boom EX,HL,50*50,50*50,-250/0,Su,11,-,39,1,4,"Pursuit Property, charge 55f"
+Flash Kick Light Kick,HL,100[80],200[100],30/40,Su,4,11,20+23,-33,D,"1~5f invincible, 4~14f cannot be thrown, , Armor Break, charge 55f"
+Flash Kick Medium Kick,HL,120[80],200[100],30/40,Su,4,11,22+23,-35,D,"1~3f invincible, 4~14f cannot be thrown, , Armor Break, charge 55f"
+Flash Kick Hard Kick,HL,130[80],200[100],30/40,Su,4,11,24+23,-37,D,"1~3f invincible, 4~14f cannot be thrown, , Armor Break, charge 55f"
+Flash Kick EX,HL,100*80,150*100,-250/0,Su,4,2*9,24+23,-35,D,"1~5f invincible, 6~14f cannot be thrown, , Armor Break, Pursuit Property, charge 55f"
+Super Light Kick,HL,80*40x4*120,0,-1000/0,-,1+2,1 * 5 * 2(9) 1 * 8 * 2,20+23,-24,D,"1~8f invincible, 13~21f cannot be thrown, Pursuit Property, charge 55f"
+Super Medium Kick,HL,80*40x4*120,0,-1000/0,-,1+3,1 * 5 * 1(14) 1 * 8 * 2,22+23,-26,D,"1~9f invincible, 18~26f cannot be thrown, Pursuit Property, charge 55f"
+Super Hard Kick,HL,80*40x4*120,0,-1000/0,-,1+5,1 * 5 * 1(19) 1 * 8 * 2,24+23,-28,D,"1~11f invincible, 25~33f cannot be thrown, Pursuit Property, charge 55f"
+Ultra 1,HL,90 * 24x6 * 66 * 210,0,0/0,-,0+7,1 * 3 * 1(30) 1 * 1 * 1 * 2 * 1,31+66,-77,D,"1~10f invincible, Pursuit Property, charge 55f"
+Ultra 2,-,150*15x4*150,0,0/0,-,0+10,43,13,-5,D,

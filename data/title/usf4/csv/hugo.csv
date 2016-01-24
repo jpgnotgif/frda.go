@@ -1,0 +1,71 @@
+Move Name,Hit Level,Damage,Stun,MeterGain,HitLevel,Startup,Active,Rcvry,Adv OnGuard,AdvOn Hit
+Far LP,-,50,50,20,HL,6,3,7[6],2,6
+Far MP,-,120,100,40,HL,9,4,20[17],-2,-1
+Far HP,-,120,200,60,H,17,8,17,-6,-1
+Close LP,-,50,50,20,HL,6,3,7[6],2,6
+Close MP,-,120,100,40,HL,9,4,20[17],-2,-1
+Close HP,-,120,200,60,H,17,8,17,-6,-1
+Far LK,-,50,50,20,HL,8,2,10,-1,3
+Far MK,-,50*50,50*50,20*20,H,17,2(4)2,23[21],-2,-8
+Far HK,-,130,200,60,H,22,9,33,-16,-12
+Close LK,-,50,50,20,HL,8,2,10,-1,3
+Close MK,-,50*50,50*50,20*20,H,17,2(4)2,23[21],-2,-8
+Close HK,-,130,200,60,H,22,9,33,-16,-12
+Crouch LP,-,50,50,20,HL,5,2,12,-2,1
+Crouch MP,-,110,100,40,HL,8,4,17[15],-4,2
+Crouch HP,-,130,200,60,HL,15,5,49,-23,-
+Crouch LK,-,50,50,20,L,6,3,10,-2,2
+Crouch MK,-,80,100,40,L,10,4,24,-7,-
+Crouch HK,-,130,100,60,H,13,15,56,-40,-
+Hammer Hook,-,130,200,60,HL,16,3,29,-6,-2
+Leap Attack,-,50,100,40,H,17,10,After landing 4,2,5
+Jump Up LP,-,60,50,20,H,6,12,-,-,-
+Jump Up MP,-,110,100,40,H,8,6,-,-,-
+Jump Up HP,-,140,200,60,H,13,4,-,-,-
+Jump Toward LP,-,60,50,20,H,6,12,-,-,-
+Jump Toward MP,-,110,100,40,H,8,6,-,-,-
+Jump Toward HP,-,140,200,60,H,13,4,-,-,-
+Jump Up LK,-,60,50,20,H,5,15,-,-,-
+Jump Up MK,-,110,100,40,H,7,7,-,-,-
+Jump Up HK,-,140,200,60,H,14,6,-,-,-
+Jump Toward LK,-,60,50,20,H,5,15,-,-,-
+Jump Toward MK,-,110,100,40,H,7,7,-,-,-
+Jump Toward HK,-,140,200,60,H,14,6,-,-,-
+Body Press,-,110,200,60,H,9,8,-,-,-
+Focus Attack (Level 1),-,90,100,20,HL,10+16,5,29,-18,-18
+Focus Attack (Level 2),-,120,150,40,HL,18+18,5,29,-12,-
+Focus Attack (Level 3),-,170,200,60,-,68,5,29,-,-
+Red Focus Attack (Level 1),-,135,100,-500/0,HL,10+16,5,29,-18,-18
+Red Focus Attack (Level 2),-,180,150,-500/0,HL,18+18,5,29,-12,-
+Red Focus Attack (Level 3),-,255,200,-500/0,-,68,5,29,-,-
+EX Red Focus Attack (Level 1),-,135,100,-750/0,HL,10+16,5,29,-12,-
+Neck Hanging Tree,-,140,140,60,0.935,3,2,20,-,-
+Body Slam,-,150,140,60,0.945,3,2,20,-,-
+Giant Palm Bomber Light Punch,-,80,100,20/40,HL,15,4,12,1,9
+Giant Palm Bomber Medium Punch,-,100,100,20/40,HL,19,4,6,7,18
+Giant Palm Bomber Hard Punch,-,110,100,20/40,HL,24,4,5,8,21
+EX Giant Palm Bomber,-,60*70,100x2,-250/-,HL,17,1*2,7,12,16
+Moonsault Press Light Punch,-,180,150,40/100,1.651,2,2,53,-,-
+Moonsault Press Medium Punch,-,200,150,40/100,1.501,2,2,51,-,-
+Moonsault Press Hard Punch,-,250,200,40/100,1.401,2,2,47,-,-
+EX Moonsault Press,-,200,150,-250/0,1.501,5,2,51,-,-
+Shootdown Backbreaker Light Kick,-,160,100,30/80,-,5,8,25 + Afterlanding 29,-,-
+Shootdown Backbreaker Medium Kick,-,180,100,30/80,-,9,9,20 + After landing 24,-,-
+Shootdown Backbreaker Hard Kick,-,200,100,30/80,-,12,12,13 + Afterlanding 28,-,-
+EX Shootdown Backbreaker,-,160,150,-250/0,-,5,7,26 + After landing 29,-,-
+Ultra Throw,-,80,150,20/80,1.414,7,2,52,-,-
+EX Ultra Throw,-,60,150,-250/0,1.744,4,2,52,-,-
+Monster Lariat Light Kick,-,100,150,40/40,HL,14,3,29,-,-
+Monster Lariat Medium Kick,-,130,150,40/40,HL,52[15],3,29,-,-
+Monster Lariat Hard Kick,-,140,150,40/40,HL,92[18],3,29,-,-
+EX Monster Lariat,-,130,150,-250/0,HL,44[14],3,23,-,-
+Meat Squasher Light Kick,-,200,150,30/80,2.31,27[8],2,62,-,-
+Meat Squasher Medium Kick,-,200,150,30/80,2.31,54[17],2,62,-,-
+Meat Squasher Hard Kick,-,200,150,30/80,2.31,79[18],2,62,-,-
+EX Meat Squasher,-,225,200,-250/0,2.27,79[14],2,62,-,-
+Hammer Mountain,-,40x3*100*80,0,-1000/0,HL,1+11,4(15)3(28)3(16)3(35)3,46,-,-
+Shootdown Backbreaker Follow up Light Kick,-,100,100,30/80,-,5,8,25 + Afterlanding 29,-,-
+Shootdown Backbreaker Follow up Medium Kick,-,100,100,30/80,-,9,9,20 + After landing 24,-,-
+Shootdown Backbreaker Follow up Hard Kick,-,100,100,30/80,-,12,12,13 + Afterlanding 28,-,-
+Gigas Breaker,-,510,0,0/0,1.65,1+0,3,46,-,-
+Megaton Press,-,431,0,0/0,-,1+4,5,7 + After landing 45,-,-

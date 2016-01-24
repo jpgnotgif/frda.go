@@ -1,0 +1,58 @@
+Move,Block,Damage,Stun,Meter Gain,Cancel Ability,Startup,Active,Recover,Frame Adv. Block,Frame Adv. Hit,Notes
+Close Light Punch,HL,30,50,20,C*Sp*Su,4,3,5,3,6,
+Close Medium Punch,HL,70,100,40,Sp*Su,5,5,15,-6,6,
+Close Hard Punch,HL,90,200,60,Sp*Su,8,4,15,-1,4,Forces stand
+Close Light Kick,HL,35,50,20,Sp*Su,5,3,7,1,4,
+Close Medium Kick,HL,75,100,40,Sp*Su,6,6,9,-1,5,Forces stand
+Close Hard Kick,HL,120,200,60,-,7,3,21,-6,-2,
+Far Light Punch,HL,30,50,20,C*Sp*Su,3,3,6,2,5,
+Far Medium Punch,HL,80,100,40,Su,7,4,13,-3,0,
+Far Hard Punch,HL,120,200,60,-,8,3,14,1,5,
+Far Light Kick,HL,40,50,20,Sp*Su,5,3,8,0,3,
+Far Medium Kick,HL,75,100,40,-,8,4,13,-3,0,
+Far Hard Kick,HL,40*80,100*100,40*40,-,9,2*4,17,-3,1,
+Crouch Light Punch,HL,30,50,20,Sp*Su,3,3,6,2,5,
+Crouch Medium Punch,HL,60,100,40,Sp*Su,5,2,11,1,4,
+Crouch Hard Punch,HL,100,200,60,Su,11,3,16,-1,4,Forces stand
+Crouch Light Kick,L,40,50,20,Sp*Su,4,2,7,2,5,Low attack
+Crouch Medium Kick,L,70,100,40,Sp*Su,6,2,14,-2,1,Low attack
+Crouch Hard Kick,L,110,200,60,-,9,2,21,-5,-,"Low attack, cannot fast recover"
+Jump Up Light Punch,H,40,50,20,-,4,10,-,-,-,
+Jump Up Medium Punch,H,80,100,40,-,6,7,-,-,-,
+Jump Up Hard Punch,H,100,200,60,-,7,3,-,-,-,
+Jump Up Light Kick,H,45,50,20,-,4,16,-,-,-,
+Jump Up Medium Kick,H,85,100,40,Sp,5,8,-,-,-,
+Jump Up Hard Kick,H,110,200,60,-,5,6,-,-,-,
+Jump Toward Light Punch,H,40,50,20,-,4,9,-,-,-,
+Jump Toward Medium Punch,H,80,100,40,-,6,7,-,-,-,
+Jump Toward Hard Punch,H,100,200,60,-,8,5,-,-,-,
+Jump Toward Light Kick,H,45,50,20,-,4,12,-,-,-,
+Jump Toward Medium Kick,H,85,100,40,-,7,4,-,-,-,
+Jump Toward Hard Kick,H,110,200,60,-,10,3,-,-,-,
+Jaguar Crunch (F+Medium Punch),H,30*50,50*50,40*20,-,23,2*2,13,-2,4,Overhead
+Focus Attack Level 1,HL,60,100,20,-,21,2,39,-25,-25,
+Focus Attack Level 2,HL,80,150,40,-,17+12,2,39,-19,-,
+Focus Attack Level 3,-,140,200,60,-,61,2,44,-,-,
+Forward Throw,,130,140,40,-,3,2,20,-,-,Throw Range 0.93
+Back Throw,,130,120,40,-,3,2,20,-,-,Throw Range 1.05
+Jaguar Kick Light Kick,HL,140,180,20/40,-,20,6,21,-3,-2,"5~25f airborne, Armor Break"
+Jaguar Kick Medium Kick,HL,140,180,20/40,-,21,7,20,-3,-2,"6~27f airborne, Armor Break"
+Jaguar Kick Hard Kick,HL,140,180,20/40,-,22,8,20,-4,-2,"7~29f airborne, Armor Break"
+Jaguar Kick EX,H,80*70,90*110,-250/0,-,20,2*3,1+21,-2,-,"1~24f projectile invuln, 2~25f airborne,"
+Air Jaguar Kick Light Kick,HL,80,160,10/20,-,14,7,12,-,-,
+Air Jaguar Kick Medium Kick,HL,80,160,10/20,-,15,5,12,-,-,
+Air Jaguar Kick Hard Kick,HL,80,160,10/20,-,16,3,12,-,-,
+Air Jaguar Kick EX,HL,90*70,110*90,-250/0,-,11,5*2,12,-,-,"1~17f projectile invincible, knocks down"
+Rising Jaguar Light Kick,HL,50*80,100*70,30/20*20,Su,4,2(6)4,17+13,-13,-,"1~5f lower body invuln, 6~f airborne"
+Rising Jaguar Medium Kick,HL,90*50,110*70,30/20*20,Su,5,2(6)5,22+13,-19,-,"1~5f upper body invuln, 1~5f unthrowable, 6~f airborne"
+Rising Jaguar Hard Kick,HL,50*100,70*120,30/20*20,Su,5,2(6)9,22+13,-23,-,"1~6f invincible, 6~f airborne"
+Rising Jaguar EX,HL,80*40*40,100*60*60,-250/0,Su,5,4(8)2*6,24+10,-33,-,"1~8f invincible, 6~f airborne, pursuit property"
+Jaguar Tooth Light Kick,HL,120,150,10/40,-,12,4,20,-4,1,
+Jaguar Tooth Medium Kick,HL,120,150,10/40,-,13,5,17,-1,3,
+Jaguar Tooth Hard Kick,HL,120,150,10/40,-,14,7,18,-2,0,
+Jaguar Tooth EX,HL,120,200,-250/0,-,7,7,20,-5,-,1~Wallframe projectile invincible
+Jaguar Varied Assault,HL,50x5*70,0,-1000/0,-,1+7,3(9) 2(11) 2(11) 2(18) 3(39) 3,40,-64,-,1~11f invincible
+Super — Thousand Jaguar,HL,30*12xN,0,0/0,-,20,3(14) 1(2) 2(2) 1(3) 1(2) 2,31,-12,-,
+Super — Assassin Jaguar,HL,30x3*60,0,0/0,-,19,3(17) 4(6) 3(8) 5,41+27,-83,-,
+Ultra 1,HL,60x3*330,0,0/0,-,0+12,7(18) 4(18) 4,34,-17,-,"1~3f invincible, 4~11f strike invincible, 2~18f, 23~40f, 45~62f airborne"
+Ultra 2,HL,60x2*45*265,0,0/0,-,0+10,4(6) 5(23) 2,25+38,-82,-,"1~11f invincible, 8~f airborne"

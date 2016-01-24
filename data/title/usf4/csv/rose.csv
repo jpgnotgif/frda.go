@@ -1,0 +1,57 @@
+Move,Block,Damage,Stun,Meter Gain,Cancel Ability,Startup,Active,Recover,Frame Adv. Block,Frame Adv. Hit,Notes
+Close Light Punch,HL,20,50,20,C*Sp*Su,4,2,10,-1,2,
+Close Medium Punch,HL,70,100,40,Sp*Su,6,2,11,1,4,
+Close Hard Punch,HL,90,200,60,Sp*Su,6,2,19,-3,1,
+Close Light Kick,HL,40,50,20,Sp*Su,4,2,10,-1,2,
+Close Medium Kick,HL,70,100,40,Sp*Su,7,3,11,0,3,1~20 cannot be thrown
+Close Hard Kick,HL,100,200,60,Sp*Su,7,2,18,-2,3,
+Far Light Punch,HL,20,50,20,C*Sp*Su,4,2,11,-2,1,
+Far Medium Punch,HL,70,100,40,Sp*Su,7,2,12,0,3,
+Far Hard Punch,HL,100,200,60,-,11,5,18,-5,-1,
+Far Light Kick,HL,30,50,20,-,4,2,10,-1,2,
+Far Medium Kick,HL,70,100,40,-,6,2,13,-1,2,
+Far Hard Kick,HL,100,200,60,-,9,2,19,-3,1,
+Crouch Light Punch,HL,20,50,20,sp/chp/Su,3,3,8,0,3,
+Crouch Medium Punch,HL,60,100,40,Sp*Su,4,3,14,-3,0,
+Crouch Hard Punch,HL,100,150,60,Sp*Su,5,5,28,-15,-10,Forces stand
+Crouch Light Kick,L,30,50,20,-,4,4,6,1,4,Low attack
+Crouch Medium Kick,L,60,100,40,Sp*Su,7,2,12,0,3,Low attack
+Crouch Hard Kick,L,90,200,60,-,9,2,26,-10,D,"Low attack, cannot fast recover"
+Jump Up Light Punch,H,40,50,20,-,4,6,-,-,-,
+Jump Up Medium Punch,H,70,100,40,-,6,6,-,-,-,
+Jump Up Hard Punch,H,90,150,60,-,9,6,-,-,-,
+Jump Up Light Kick,H,50,50,20,-,4,7,-,-,-,
+Jump Up Medium Kick,H,80,100,40,-,7,6,-,-,-,
+Jump Up Hard Kick,H,90,200,60,-,11,5,-,-,-,
+Jump Toward Light Punch,H,40,50,20,-,4,6,-,-,-,
+Jump Toward Medium Punch,H,70,100,40,-,7,3,-,-,-,
+Jump Toward Hard Punch,H,90,150,60,-,7,7,-,-,-,
+Jump Toward Light Kick,H,30,50,20,-,4,7,-,-,-,
+Jump Toward Medium Kick,H,60,100,40,-,7,5,-,-,-,
+Jump Toward Hard Kick,H,100,200,60,-,6,5,-,-,-,
+Slide,L,60,100,40,-,7,8,12,-6,-3,Low attack
+Forward + Hard Kick,HL,100,200,60,-,11,2,21,-5,-1,
+Focus Attack Level 1,HL,60,100,20,-,21,2,35,-21,-21,
+Focus Attack Level 2,HL,80,150,40,-,17+14,2,35,-15,D,
+Focus Attack Level 3,-,120,200,60,-,65,2,35,D,D,
+Forward Throw,1,140,100,40,-,3,2,20,-,D,Throw range 1.0
+Back Throw,1,140,100,40,-,3,2,20,-,D,Throw range 1.0
+Soul Spark Light Punch,HL,80,50,20/20,Su,14,-,52,-12,-8,
+Soul Spark Medium Punch,HL,80,50,20/20,Su,22,-,52,-4,0,
+Soul Spark Hard Punch,HL,80,50,20/20,Su,29,-,53,2,6,
+Soul Spark EX,HL,30*70,50*50,-250/0,Su,14,-,48,0,4,
+Soul Spiral Light Kick,HL,100,100,20/40,Su,12,6,23,-8,D,Armor Break
+Soul Spiral Medium Kick,HL,100,100,20/40,Su,15,6,21,-6,D,Armor Break
+Soul Spiral Hard Kick,HL,100,100,20/40,Su,16,6,19,-4,D,Armor Break
+Soul Spiral EX,HL,100,100,-250/0,Su,13,6,21,-6,D,"1~11f invincible, Armor Break"
+Soul Reflect Light Punch,HL,50,100,20/30,Su,13,2,27,-8,D,"gives super gauge +100, 11~22f , increases super damage by 5% up to 7 times/35%, EX"
+Soul Reflect Medium Punch,HL,50,100,20/30,Su,13,3,25,-7,D,", 10~19f , EX"
+Soul Reflect Hard Punch,HL,50,100,20/30,Su,12,2,26,-7,D,", 11~19f , EX"
+Soul Reflect EX,HL,50,100,-250/0,Su,8,2,24,-5,D,", 7~14f , Increases damage of reflected projectile by 10%,"
+Soul Throw Light Punch,0.4,160,100,20/40,-,6,10,26+8,D,D,Throw range 0.4
+Soul Throw Medium Punch,0.4,160,100,20/40,-,6,11,27+8,D,D,Throw range 0.4
+Soul Throw Hard Punch,0.4,160,100,20/40,-,6,11,30+8,D,D,Throw range 0.4
+Soul Throw EX,0.4,160,100,-250/0,-,6,11,30+8,D,D,"1~7f invincible, Throw range 0.4"
+Super,HL,50x4*100,0,-1000/0,-,1+8,-,53,16,D,1~7f invincible
+Ultra 1,HL,498,0,0/0,-,1+11,14,44,-37,D,"1~11f invincible, Armor Break"
+Ultra 2,HL,120*120,0,0/0,-,1+4,600,4,-,D,

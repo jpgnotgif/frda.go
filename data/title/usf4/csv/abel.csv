@@ -1,0 +1,64 @@
+Move,Block,Damage,Stun,Meter Gain,Cancel Ability,Startup,Active,Recover,Frame Adv. Block,Frame Adv. Hit,Notes
+Close Light Punch,HL,25*15,30*20,20*20,C*Sp*Su,4,3(8)3,11,-3,0
+Close Medium Punch,HL,50*30,50*50,40*20,Sp*Su,5,3(8)2,14,-2,4,Forces stand
+Close Hard Punch,HL,80*30,100*100,60*20,Sp*Su,4,3(8)2,20,-4,0,Forces stand
+Close Light Kick,HL,30,50,20,-,5,2,9,0,3,
+Close Medium Kick,HL,70,100,40,Sp*Su,7,2,16,-4,-1,
+Close Hard Kick,HL[H],100[30],150[50],60[20],-,6,6,16,-4,0,"1~4f whiffs on crouching, 5~6f overhead, Forces stand"
+Far Light Punch,HL,30,50,20,Sp*Su,5,2,6,3,6,
+Far Medium Punch,HL,80,100,40,Su,5,6,11,-3,0,
+Far Hard Punch,HL,130,200,60,-,12,3,17,-2,2,
+Far Light Kick,HL,40,50,20,-,5,3,8,0,3,
+Far Medium Kick,HL,80,100,40,-,8,3,15,-4,-1,Cannot strike crouching opponents
+Far Hard Kick,HL,100,200,60,-,14,2,19,-3,1,
+Crouch Light Punch,HL,30,50,20,C*Sp*Su,5,2,6,3,6,
+Crouch Medium Punch,HL,70,100,40,Sp*Su,7,3,10,1,4,
+Crouch Hard Punch,HL,70*40,100*50,60*20,Sp*Su,8,2*2,22,-6,D,"1st hit forces stand, 2nd hit juggles"
+Crouch Light Kick,L,20,50,20,C*Sp*Su,5,3,7,1,4,Low attack
+Crouch Medium Kick,HL,70,100,40,Sp*Su,8,5,13,-4,1,
+Crouch Hard Kick,L,100,200,60,Sp*Su,11,3,25,-10,D,"Low attack, cannot fast recover"
+Jump Up Light Punch,H,50,50,20,-,5,4,-,-,-,
+Jump Up Medium Punch,H,80,100,40,-,5,6,-,-,-,
+Jump Up Hard Punch,H,100,200,60,-,5,4,-,-,-,
+Jump Up Light Kick,H,50,50,20,-,5,8,-,-,-,
+Jump Up Medium Kick,H,80,100,40,-,4,6,-,-,-,
+Jump Up Hard Kick,H,100,200,60,-,5,4,-,-,-,
+Jump Toward Light Punch,H,50,50,20,-,5,8,-,-,-,
+Jump Toward Medium Punch,H,80,100,40,-,5,10,-,-,-,
+Jump Toward Hard Punch,H,100,200,60,-,5,8,-,-,-,
+Jump Toward Light Kick,H,50,50,20,-,4,5,-,-,-,
+Jump Toward Medium Kick,H,70,100,40,-,5,6,-,-,-,
+Jump Toward Hard Kick,H,110,200,60,-,5,5,-,-,-,
+F+Medium Kick,HL,80,100,40,,7,2,16,0,3,Dash cancelable
+Focus Attack Level 1,HL,60,100,20,-,21,2,35,-21,-21,
+Focus Attack Level 2,HL,80,150,40,-,17+13,2,35,-15,D,
+Focus Attack Level 3,-,140,200,60,-,65,2,35,D,D,
+Forward Throw,0.9,130,140,40,-,3,2,20,-,D,Throw range 0.91
+Back Throw,0.9,130,140,40,-,3,2,20,-,D,Throw range 0.91
+Change of Direction Light Punch,HL,30,50,20/30,Su,14,3,25,-3,2,Forces stand
+Change of Direction Medium Punch,HL,35,50,20/30,Su,16,3,25,-3,2,Forces stand
+Change of Direction Hard Punch,HL,40,50,20/30,Su,17,3,25,-3,2,Forces stand
+Change of Direction EX,HL,40,50,-250/0,Su,16,3,25,-3,2,"1~18f armored, forces stand"
+Punch Change of Direction 2nd Hit,H,40,50,10/20,-,15,4,28,-9,-4,Mid attack
+Kick Change of Direction 2nd Hit,L,50,50,20/30,Su,22,4,24,-5,-1,Low attack
+Punch Change of Direction 3rd Hit,H,100,50,10/30,-,10,2,44,-35,D,Armor Break
+Kick Change of Direction 3nd Hit,L,150,100,30/30,-,22,2,53,-44,D,"Low attack, Armor Break"
+Kick Wheel Light Kick,H,120,200,30/40,-,20,7,2+19,-10,-5,"1~26f low invuln, 11f~ airborne, Forces stand, Mid attack"
+Kick Wheel Medium Kick,H,140,200,30/40,-,24,7,2+20,-11,-6,"1~30f low invuln, 14f~ airborne, Forces stand, Mid attack"
+Kick Wheel Hard Kick,H,160,200,30/40,-,27,7,1+22,-12,-7,"1~32f low invuln, 15f~ airborne, Forces stand, Mid attack"
+Kick Wheel EX,H,60*120,100*100,-250/0,--,17,7*3,2+19,-6,0,"1~26f low invuln, Forces stand, Mid attack"
+Marseilles Roll Light Kick,-,-,-,20/-,-,-,-,27,-,-,"5~23f strike and projectile invincible, 24~26f projectile invincible"
+Marseilles Roll Medium Kick,-,-,-,20/-,-,-,-,30,-,-,"5~25f strike and projectile invincible, 26~29f projectile invincible"
+Marseilles Roll Hard Kick,-,-,-,20/-,-,-,-,32,-,-,"5~27f strike and projectile invincible, 28~31 projectile invincible"
+Marseilles Roll EX,-,-,-,-250/-,-,-,-,32,-,-,1~32f strike invincible
+Sky Fall Light Punch,-,0*140,100,30/0*100,-,5,2,31,-,D,Cannot fast recover
+Sky Fall Medium Punch,-,0*150,150,30/0*100,-,6,4,31,-,D,Cannot fast recover
+Sky Fall Hard Punch,-,0*160,200,30/0*100,-,9,6,31,-,D,Cannot fast recover
+Sky Fall EX,-,0*160,150,-250/0,-,6,2,31,-,D,Cannot fast recover
+Tornado Throw Light Punch,1.3,150,100,30/80,-,5,2,51,-,D,"1~6f unthrowable, throw range 1.33"
+Tornado Throw Medium Punch,1.1,170,150,30/80,-,5,2,45,-,D,"1~6f unthrowable, throw range 1.13"
+Tornado Throw Hard Punch,0.9,190,200,30/80,-,5,2,39,-,D,"1~6f unthrowable, throw range 0.93"
+Tornado Throw EX,1.25,190,150,-250/0,-,5,2,54,-,D,"1~6f strike invincible, throw range 1.25"
+Super,HL,0*335,0,-1000/0,-,1+5,2,41,-32,D,"1f invincible, 2~7f strike(Light) throw(Medium) projectile(Hard) invincible"
+Ultra 1,HL,45*416,0,0/0,-,1+13,2,46,-30,D,"1~4f invincible, 5~14f strike/projectile invincible, Armor Break"
+Ultra 2,1,431,0,0/0,-,1+7,6,51,-,-,"1f invincible, armored on first frame onwards until release or cancel"

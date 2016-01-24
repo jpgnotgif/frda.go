@@ -1,0 +1,58 @@
+Move,Block,Damage,Stun,Meter Gain,Cancel Ability,Startup,Active,Recover,Frame Adv. Block,Frame Adv. Hit,Notes
+Close Light Punch,HL,25,50,20,C*Sp*Su,3,2,5,4,7,
+Close Medium Punch,HL,70[60],100,40,Sp*Su,4,4,13,1,6,
+Close Hard Punch,HL,85,150,60,Sp*Su,4,4,11,2,6,
+Close Light Kick,HL,25,50,20,C*Sp*Su,4,2,8,1,4,
+Close Medium Kick,HL,65,100,40,Sp*Su,4,3,17,-6,-3,
+Close Hard Kick,HL,110,200,60,-,9,5,24,-11,-7,
+Far Light Punch,HL,25,50,20,C*Sp*Su,3,3,5,3,6,
+Far Medium Punch,HL,70,100,40,Sp*Su,7,4,14,-4,-1,
+Far Hard Punch,HL,80,200,60,Sp*Su,6,3*8,19,-4,1,
+Far Light Kick,HL,30,50,20,Sp*Su,4,3,6,2,5,
+Far Medium Kick,HL,70,100,40,-,7,2,13,-1,2,
+Far Hard Kick,HL,110,200,60,-,8,2,22,-6,-2,
+Crouch Light Punch,HL,20,50,20,C*Sp*Su,3,2,6,3,6,
+Crouch Medium Punch,HL,65,100,40,Sp*Su,5,4,7,3,6,
+Crouch Hard Punch,HL,90,200,60,-,6,4,12,2,7,Forces stand
+Crouch Light Kick,L,25,50,20,C*Sp*Su,3,3,9,-1,2,Low attack
+Crouch Medium Kick,L,65,100,40,Sp*Su,6,4,12,-2,1,Low attack
+Crouch Hard Kick,L,95,100,60,-,7,2,24,-8,D,"Low attack, cannot fast recover"
+Jump Up Light Punch,H,50,50,20,-,4,4,-,-,-,
+Jump Up Medium Punch,H,80,100,40,-,5,4,-,-,-,
+Jump Up Hard Punch,H,100,200,60,-,5,3,-,-,-,
+Jump Up Light Kick,H,30,50,20,-,5,5,-,-,-,
+Jump Up Medium Kick,H,70,100,40,-,5,7,-,-,-,
+Jump Up Hard Kick,H,100,200,60,-,5,3,-,-,-,
+Jump Toward Light Punch,H,50,50,20,-,4,5,-,-,-,
+Jump Toward Medium Punch,H,80,100,40,-,5,3,-,-,-,
+Jump Toward Hard Punch,H,100,200,60,-,6,4,-,-,-,
+Jump Toward Light Kick,H,30,50,20,-,4,7,-,-,-,
+Jump Toward Medium Kick,H,70,100,40,-,5,4,-,-,-,
+Jump Toward Hard Kick,H,100,200,60,-,6,5,-,-,-,
+Focus Attack Level 1,H,60,100,20,-,21,2,35,-21,-21,
+Focus Attack Level 2,H,80,150,40,-,17+12,2,35,-15,D,
+Focus Attack Level 3,-,120,200,60,-,65,2,35,D,D,
+Forward Throw,0.79,140,130,40,-,3,2,20,-,D,Throw range 0.79
+Back Throw,0.79,135,140,40,-,3,2,20,-,D,Throw range 0.79
+Air Throw,1,150,150,40,-,5,2,-,-,D,Throw range 1.0
+Cannon Spike Light Kick,HL,100[120],100[150],30/40,Su,5,21,20+12,-30,D,1~4f invincible
+Cannon Spike Medium Kick,HL,100[120],100[180],30/40,Su,5,26,18+12,-30,D,1~5f invincible
+Cannon Spike Hard Kick,HL,100[160],100[200],30/40,Su,5,31,17+12,-30,D,1~5f invincible
+Cannon Spike EX,HL,150[95],200[100],-250/0,Su,5,26,18+12,-30,D,1~6f invincible
+Spiral Arrow Light Kick,L,80,150,30/30,-,7,19,4+15,-17,D,Low attack
+Spiral Arrow Medium Kick,L,100,150,30/30,-,7,19,4+15,-17,D,Low attack
+Spiral Arrow Hard Kick,L,40*80,80*100,30/30*30,Su-,7,2*17,4+15,-15,D,Low attack
+Spiral Arrow EX,L,100*60,100*100,-250/0,Su-,7,7*12,4+15,-10,D,"Low attack, 1~25f projecticle invincible"
+Spin Knuckle Light Punch,HL,80*80,100*100,30/20*20,Su-,35,3*8,9,4,D,"1f invincible, 2~25f mid and low invincible, 6~25f airborne, Armor Break"
+Spin Knuckle Medium Punch,HL,80*80,100*100,30/20*20,Su-,33,3*8,10,3,D,"1f invincible, 2~24f mid and low invincible, 6~24f airborne, Armor Break"
+Spin Knuckle Hard Punch,HL,80*80,100*100,30/20*20,Su-,36,3*8,10,3,D,"1f invincible, 2~27f mid and low invincible, 6~27f airborne, Armor Break"
+Spin Knuckle EX,HL,80*80,100*100,-250/0,Su-,33,3*8,10,3,D,"1~25f strike invincible, 6~24f airborne, Armor Break"
+Hooligan Combination,-,-,-,30/-,-,-,-,Until Grounded,-,-,7f~ airborne
+Razor's Edge Slicer,L,100[120],150[200],0/30[0],Su,10,9,13,-1,-,
+Fatal Leg Twister,1.03,130,140,0/40,-,31+1,1,5,-,-,Throw range 1.0
+Crossed Scissors,1.03,140,150,0/40,-,31+1,1,5,-,-,Throw range 1.0
+Cannon Strike,HL,60,100,10/20,-,12,11,5,-,-,Can only perform after 9th frame of forward jump
+Cannon Strike EX,HL,80,100,-250/0,-,12,11,4,14,18,
+Super,HL,40x6*110,0,-1000/0,-,1+5,6 * 6 * 6(3) 2 * 2(2)2 (11)8,30+21,-35,-,"1~5f invincible, 3~26f and 46f~ airborne"
+Ultra 1,HL,30x6*210 [30x5*330],0,0/0,-,0+10,6 * 6 * 6(3) 2 * 2(2) 2(11) 8,30+21,-35,-,"1~10f invincible, 7~30f and 50f~ airborne"
+Ultra 2,-,470,0,0/0,-,0+1,35,61,-,-,Active for 35 frames

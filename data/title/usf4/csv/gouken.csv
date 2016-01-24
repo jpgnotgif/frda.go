@@ -1,0 +1,74 @@
+Move,Block,Damage,Stun,Meter Gain,Cancel Ability,Startup,Active,Recover,Frame Adv. Block,Frame Adv. Hit,Notes
+Close Light Punch,HL,30,50,20,C*Sp*Su,4,2,9,0,3,
+Close Medium Punch,HL,65,100,40,Sp*Su,5,2,11,4,7,
+Close Hard Punch,HL,100,200,60,Sp*Su,8,2,16,0,4,
+Close Light Kick,HL,35,50,20,-,5,2,9,0,3,
+Close Medium Kick,HL,70,100,40,Sp*Su,3,2,13,-1,2,
+Close Hard Kick,HL,40*70,125*75,60*20,Su,4,2(4)3,15,0,5,1st hit cancellable
+Far Light Punch,HL,30,50,20,C*Sp*Su,5,2,9,0,3,
+Far Medium Punch,HL,80,100,40,Su,5,2,11,1,4,
+Far Hard Punch,HL,120,200,60,-,8,3,15,0,4,
+Far Light Kick,HL,40,50,20,C,6,2,9,0,3,
+Far Medium Kick,HL,75,100,40,-,7,2,13,-1,2,
+Far Hard Kick,HL,110,200,60,-,8,2,19,-3,0,
+Crouch Light Punch,HL,20,50,20,C*Sp*Su,4,2,9,0,3,
+Crouch Medium Punch,L,70,100,40,Sp*Su,5,2,14,-2,1,Low attack
+Crouch Hard Punch,HL,80,200,60,Sp*Su,6,4,22,-8,-4,
+Crouch Light Kick,L,40,50,20,Sp*Su,5,4,9,-2,1,Low attack
+Crouch Medium Kick,HL,70,100,40,Sp*Su,4,3,16,-5,-2,
+Crouch Hard Kick,L,100,100,60,-,6,3,18,-3,D,"Low attack, cannot fast recover"
+Jump Up Light Punch,H,50,50,20,-,5,6,-,-,-,
+Jump Up Medium Punch,H,85,100,40,-,5,4,-,-,-,
+Jump Up Hard Punch,H,105,200,60,-,6,4,-,-,-,
+Jump Up Light Kick,H,40,50,20,-,6,7,-,-,-,
+Jump Up Medium Kick,H,80,100,40,-,6,3,-,-,-,
+Jump Up Hard Kick,H,100,200,60,-,7,3,-,-,-,
+Jump Toward Light Punch,H,50,50,20,-,5,5,-,-,-,
+Jump Toward Medium Punch,H,50*30,50*50,40,-,4,2*2,-,-,-,", 2nd hit pursuit property"
+Jump Toward Hard Punch,H,100,200,60,-,5,3,-,-,-,
+Jump Toward Light Kick,H,40,50,20,-,7,8,-,-,-,
+Jump Toward Medium Kick,H,70,100,40,-,7,4,-,-,-,
+Jump Toward Hard Kick,H,100,200,60,-,8,3,-,-,-,
+Overhead - Forward + Medium Punch,H,80,100,40,-,17,2,15,-3,2,Mid attack
+Dive Kick,H,60,100,40,-,12,until ground,-,-,-,Mid attack
+Focus Attack Level 1,HL,65,100,20,-,21,2,35,-21,-21,
+Focus Attack Level 2,HL,85,150,40,-,17+12,2,35,-15,D,
+Focus Attack Level 3,-,150,200,60,-,65,2,35,D,D,
+Forward Throw,0.9,140,150,40,-,3,2,20,-,D,Throw range 0.9
+Back Throw,0.9,0,0,40,-,5,2,24,-,D,", Throw range 0.9"
+Fireball Light Punch,HL,55,50,10/20,Su,17[8],-,41[32],2,6,
+Fireball Light Punch Charge,HL,55*55,50*50,10/10*10,Su,68,-,93,9,13,
+Fireball Medium Punch,HL,55,50*50,10/20,Su,17[8],-,41[32],2,6,
+Fireball Medium Punch Charge,HL,55*55,50*50,10/10*10,Su,68,-,93,9,13,
+Fireball Hard Punch,HL,55,50,10/20,Su,17[8],-,41[32],2,6,
+Fireball Hard Punch Charge,HL,55*55,50*50,10/10*10,Su,68,-,93,9,13,
+Fireball EX,HL,60*60,80*80,-250/0,Su,17[8],-,55[46],4,-,
+Fireball EX Charge,HL,60*60,80*80,-250/0,Su,68,-,107,13,-,
+Running Palm Light Punch,HL,90,150,10/20,Su,21[16],4,23,-6,D,4~13f invincible
+Running Palm Medium Punch,HL,130,200,10/20,Su,27[17],4,23,-6,D,5~19f invincible
+Running Palm Hard Punch,HL,140,200,10/20,Su,35[20],4,23,-6,D,8~27f invincible
+Running Palm EX,HL,90*60,100*50,-250/0,Su,32[17],4(11)4,22,-5,D,"2~25f invincible, 2nd hit juggles, Armor Break, 1~2 hit cancellable"
+Hurricane Kick Light Kick,HL,60*20*40,100*25*25,10/20*10*10,Su,7,2(8) 2(10) 2,41+26,-70,D,", Pursuit Property, 1st hit cancellable"
+Hurricane Kick Medium Kick,HL,65*20x2*50,100*25x3,10/20*10x3,Su,10,2(8) 2(8) 2(10) 2,44+26,-83,D,", Pursuit Property, 1st hit cancellable"
+Hurricane Kick Hard Kick,HL,70*20x3*55,100*20x3*40,10/20*10x4,Su,13,2(8) 2(7) 2(8) 2(11) 2,53+26,-102,D,", Pursuit Property, 1st hit cancellable"
+Hurricane Kick EX,HL,80*10x6*60,100*10x6*40,-250/0,Su,7,2x8,53+26,-97,D,", Pursuit Property, 1st hit cancellable"
+Hurricane Kick Light Kick (Air),HL,100,200,10/30,-,6,2(4) 2(3) 2,20,-,-,
+Hurricane Kick Medium Kick (Air),HL,110,200,10/30,-,6,2x5,20,-,-,
+Hurricane Kick Hard Kick (Air),HL,120,200,10/30,-,6,2x7,20,-,-,
+Hurricane Kick EX (Air),HL,140,200,-250/0,-,6,2x7,20,-,-,
+Demon Flip,-,0,0,30/-,-,-,-,,-,-,
+Demon Flip EX,-,0,0,0/0,-,-,-,,-,-,"1~25f invincible, flies toward opponent"
+Demon Flip Slide,HL,100,200,-/30,-,39+4,11,20,-13,D,", Low attack"
+Demon Flip Focus,-,0,0,-,-,4,Until ground,12,-,,
+Demon Flip Kick,HL,80,100,0/20,-,12,Until ground,4,-,-,Forces stand
+Demon Flip Throw,1.2,150,200,0/30,-,3,2,12,D,D,"Throw range Light=1.15, Medium=1.25, Hard=1.35, EX=1.5"
+Counter Punch,-,180,150,10/-,Su,1,14,12,-,-,
+Counter Kick,-,180,150,10/-,Su,1,14,18,-,-,
+Counter EX,-,150,150,-250/0,Su,1,14,43,-,-,
+Super,HL,85 * 40x5 * 60,0,-1000/0,-,1+10,3 * 2 * 3 * 3 * 2 * 3 * 4,30+31,-57,-,"1~12f invincible, Pursuit Property, Armor Break"
+Ultra 1,HL,135 * 48x6 * 90 [503],0,0/0,-,0+11,2 * 3 * 3 * 2 * 3 * 3 * 2 * 4,42+51,-88,-,"1~13f invincible, Pursuit Property, Armor Break"
+Ultra 2 (Level 1),HL,60x3*75,100x4,0/0,-,0+13,-,73,-9,-,1f invincible
+Ultra 2 (Level 2),HL,60x4*75,100x5,0/0,-,3+14,-,74,1,-,1~3f invincible
+Ultra 2 (Level 3),HL,60x5*75,100x6,0/0,-,18+14,-,89,11,-,1~3f invincible
+Ultra 2 (Level 4),HL,60x6*75,100x7,0/0,-,33+14,-,104,21,-,1~3f invincible
+Ultra 2 (Level 5),HL,60x7*75,100x8,0/0,-,0+65,-,118,31,-,1~3f invincible

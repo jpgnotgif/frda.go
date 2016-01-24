@@ -1,0 +1,74 @@
+Move Name,Hit Level,Damage,Stun,MeterGain,CancelAbility,Startup,Active,Rcvry,Adv OnGuard,AdvOn Hit
+Close LP,-,30,50,20,sp/su,4,2,6,3,6
+Close MP,-,60,100,40,sp/su,5,7,13,-6,-3
+Close HP,-,90[100],200,60,sp/su,6,8,15,-5,0
+Close LK,-,30,50,20,sp/su,3,6,4,1,4
+Close MK,-,70,100,40,sp/su,5,6,6,2,5
+Close HK,-,90,150,60,-,6,4,12,2,6
+Far LP,-,30,50,20,sp/su,4,2,6,4,7
+Far MP,-,70,100,40,-,6,5,9,0,3
+Far HP,-,70*50,150*50,30*30,-,8,2*3,23,-8,-4
+Far LK,-,30,50,20,-,4,3,5,3,6
+Far MK,-,80,100,40,-,8,5,11,-2,1
+Far HK,-,130,200,60,-,6,4,15,-1,3
+Crouch LP,-,30,50,20,sp/su,4,2,7,2,5
+Crouch MP,-,20*20*30,20*20*60,10*10*20,-,8,2*2*5,5,4,6
+Crouch HP,-,100,200,60,-,11,4,15,-9,-4
+Crouch LK,-,30,50,20,sp/su,4,4,5,0,3
+Crouch MK,-,65,100,40,sp/su,5,3,16,-4,-1
+Crouch HK,-,100,100,60,-,10,7,22,-8,-
+Trick Rod,-,70,100,40,-,17,4,9 + After landing 3,-5,-2
+Jump Up LP,-,40,50,20,-,4,3,-,-,-
+Jump Up MP,-,20*20*40,20*20*60,10*10*20,-,5,2*2*8,-,-,-
+Jump Up HP,-,100,200,60,-,7,4,-,-,-
+Jump Toward LP,-,40,50,20,-,4,3,-,-,-
+Jump Toward MP,-,20*20*40,20*20*60,10*10*20,-,5,2*2*8,-,-,-
+Jump Toward HP,-,100,200,60,-,6,3,-,-,-
+Jump Up LK,-,40,50,20,-,3,7,-,-,-
+Jump Up MK,-,70,100,40,-,6,6,-,-,-
+Jump Up HK,-,100,200,60,-,6,4,-,-,-
+Jump Toward LK,-,40,50,20,-,3,7,-,-,-
+Jump Toward MK,-,70,100,40,-,6,6,-,-,-
+Jump Toward HK,-,100,200,60,-,6,4,-,-,-
+Spike Rod,-,60,50,30,-,6,Until Ground,9 Airborne,-,-
+Spike Rod (Bounce),-,-,-,-,-,-,-,28 + After Landing 7,-,-
+Trick Landing (Forward),-,-,-,-,-,-,-,24 + After landing 8,-,-
+Trick Landing (Neutral),-,-,-,-,-,-,-,30 + After landing 8,-,-
+Trick Landing (Backward),-,-,-,-,-,-,-,31 + After landing 8,-,-
+Focus Attack (Level 1),-,60,100,20,-,10+11,2,36,-22,-22
+Focus Attack (Level 2),-,90,150,40,-,17+11,2,36,-16,-
+Focus Attack (Level 3),-,150,200,60,-,64,2,34,-,-
+Red Focus Attack (Level 1),-,90,100,20,-,10+11,2,36,-22,-22
+Red Focus Attack (Level 2),-,120,150,40,-,17+11,2,36,-16,-
+Red Focus Attack (Level 3),-,225,200,60,-,64,2,34,-,-
+EX Red Focus Attack (Level 1),-,90,100,20,-,10+11,2,36,-16,-
+Colonel Carrier,-,130,100,30,-,3,2,20,-,-
+Deadly Package,-,130,100,30,-,3,2,20,-,-
+Stinger Jump Light Kick,-,-,-,-,-,-,-,46 + After landing 6,-,-
+Stinger Jump Medium Kick,-,-,-,-,-,-,-,48 + After landing 6,-,-
+Stinger Jump Hard Kick,-,-,-,-,-,-,-,53 + After landing 6,-,-
+EX Stinger Jump,-,-,-,-250/0,-,-,-,22 + After landing 6,-,-
+Stinger,-,50,50,18/20,-,9+16,-,Until Ground + After landing 7,11,19
+EX Stinger,-,30x3,50x3,-250/0,-,9+9,-,Until Ground + After landing 7,3,-
+Patriot Circle Light Punch,-,10*10*20,10*10*20,12/6x3,-*-*su,14,2*3*5,22,-3,1
+Patriot Circle Medium Punch,-,10*10*20,10*10*20,12/6x3,-*-*su,16,2*3*5,24,-4,-1
+Patriot Circle Hard Punch,-,10*10*20,10*10*20,12/6x3,-*-*su,18,2*3*5,26,-6,-3
+Patriot Circle Part 2,-,10*10*20,10*10*20,6/6x3,-*-*su,14,2*2*5,26,-6,-3
+Patriot Circle Part 3,-,20*20*40,20*20*40,6/6*6*10,-*-*su,15,3*3*7,31,-22,-
+EX Patriot Circle,-,15x6*10,10x7,-250/0,-x6*su,12,3*2*2*3*3*3*3,21,-7,-
+Mekong Delta Air Raid Light Punch (Roll),-,-,-,-,-,-,-,22,-,-
+Mekong Delta Air Raid Medium Punch (Roll),-,-,-,-,-,-,-,36,-,-
+Mekong Delta Air Raid Hard Punch (Roll),-,-,-,-,-,-,-,46,-,-
+EX Mekong Delta Air Raid (Roll),-,-,-,-250/0,-,-,-,45,-,-
+Mekong Delta Air Raid,-,90,150,6/40,-,6+30,3,After Landing 11,3,11
+EX Mekong Delta Air Raid,-,90,150,-250/0,-,6+20,4,After Landing 13,-5,8
+Mekong Delta Attack,-,-,-,-,-,-,-,26 + After landing 9F,-,-
+Mekong Delta Attack Light Punch (Roll),-,120,200,10/30,su,28+3,14,10,-8,2
+Mekong Delta Attack Medium Punch (Roll),-,120,200,10/30,su,28+3,14,10,-8,2
+Mekong Delta Attack Hard Punch (Roll),-,120,200,10/30,su,28+3,16,9,-8,2
+EX Mekong Delta Attack (Roll),-,30x4*80,30x4*100,-250/0,-,28+3,6*3*5*5*5,10,-5,-
+Mekong Delta Escape,-,-,-,0/0,-,32F to wall,Wall jump occurs on 33F,After Landing 9,-,-
+EX Mekong Delta Escape,-,-,-,-250/0,-,32F to wall,Wall jump occurs on 33F,After Landing 9,-,-
+Mine Sweeper,-,50x3*200,0,-1000/0,-,1+7,11*16*17*19,29,-19,-
+Patriot Sweeper,-,15x7*45*15x2*210*30,0,0/0,-,0+7,2*2*2(13)2*2*2*2(25)2*3*3*3,39,-19,-
+Take No Prisoners,-,300*180,0,0/0,-,0+7,14,43,-18,-
