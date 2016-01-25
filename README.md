@@ -14,7 +14,8 @@ The compiled data used by this service can be found here
 
 ## Bootstrap
 - [Install golang](https://golang.org/doc/install)
-- Build it
+- Clone this repo
+- Generate the binary
 
 ```
 $ go install github.com/jpgnotgif/fgframes
