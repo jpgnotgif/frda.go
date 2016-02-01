@@ -29,7 +29,7 @@ Jump Toward Hard Punch,H,110,200,60,-,8,8,-,-,-,
 Jump Toward Light Kick,H,40,50,20,-,5,7,-,-,-,
 Jump Toward Medium Kick,H,70,100,40,-,6,14,-,-,-,
 Jump Toward Hard Kick,H,100,200,60,-,7,6,-,-,-,
-Jump Medium Punch(during Jump Medium Punch),H,30,50,20,-,6,4,-,-,-,Pursuit Property
+Jump Medium Punch (during Jump Medium Punch),H,30,50,20,-,6,4,-,-,-,Pursuit Property
 Focus Attack Level 1,HL,60,100,20,-,22,2,34,-20,-20,
 Focus Attack Level 2,HL,90,150,40,-,17+13,2,34,-14,D,
 Focus Attack Level 3,-,150,200,60,-,66,2,34,D,D,
@@ -48,9 +48,9 @@ Headstomp EX,HL,180,200,-250/0,-,22,Until ground,16,-,D,", Mid attack, , , Flies
 Headstomp,-,-,-,0/0,-,-,-,4,-,-,
 Headstomp Punch follow up,HL,120,100,20/30,-,35+7,3,13,10,13,"Mid attack, ,"
 Headstomp EX Punch follow up,HL,80*80,100*100,-250/0,-,35+7,3,13,10,13,"Pursuit Property, Mid attack, ,"
-Devil's Reverse,HL,-,-,0/0,-,-,-,48,-,-,"EX 1~13f invincible, Flies toward opponent"
-Devil's Reverse,HL,110,150,20/30,-,13+34,Until ground,16,-,-,"Mid attack, , charge 55f"
-Devil's Reverse EX,HL,80*80,100*100,-250/0,-,13+34,Until ground,16,-,-,"Pursuit Property, mMid attack, , charge 55f"
+Devils Reverse,HL,-,-,0/0,-,-,-,48,-,-,"EX 1~13f invincible, Flies toward opponent"
+Devils Reverse,HL,110,150,20/30,-,13+34,Until ground,16,-,-,"Mid attack, , charge 55f"
+Devils Reverse EX,HL,80*80,100*100,-250/0,-,13+34,Until ground,16,-,-,"Pursuit Property, mMid attack, , charge 55f"
 Teleport,-,-,-,0/0,-,-,-,42,-,-,1~29f invincible
 Super Light Kick,HLx4*L,60x4*100,0,-1000/0,-,1+6,2(1) 2(11) 2 * 2(8) 18,30,-27,D,"1~7f invincible, Pursuit Property, Low attack(5th hit), (5th hit), charge 55f"
 Super Medium Kick,HLx4*L,60x4*100,0,-1000/0,-,1+11,2(1) 2(11) 2 * 2(8) 18,30,-27,D,"1~10f invincible, Pursuit Property, Low attack(5th hit), (5th hit), charge 55f"

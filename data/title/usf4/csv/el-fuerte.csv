@@ -49,9 +49,9 @@ Tostada Press Forward Dash,H,100,100,20/30,-,6+20,7,After Grounded 34,-16,D,"1~1
 Tostada Press Back Dash,H,100,100,20/30,-,6+20,7,After Grounded 30,-12,D,"1~9f , Pursuit Property, Mid attack, Cannot fast recover, ,"
 Fajita Buster Forward Dash,1.8,150,150,20/60,-,6+23,6,2+34,-,D,"1~11f , , Throw range 2.95"
 Back Step,-,-,-,-,-,-,-,17,-,-,
-Habenero Dash - Medium Kick,HL,80,100,20/30,Su,6+14,2,18,1,5,
-Habenero Dash - Hard Kick,L,100,200,20/30,-,6+12,6,24,-9,-,"Low attack, cannot fast recover"
-Habenero Back Dash - Hard Punch,1.73,132,150,20/60,-,6+22,4,4+16,-,-,"1~13f , , Throw range 2.65"
+Habenero Dash-Medium Kick,HL,80,100,20/30,Su,6+14,2,18,1,5,
+Habenero Dash-Hard Kick,L,100,200,20/30,-,6+12,6,24,-9,-,"Low attack, cannot fast recover"
+Habenero Back Dash-Hard Punch,1.73,132,150,20/60,-,6+22,4,4+16,-,-,"1~13f , , Throw range 2.65"
 Picadillo Jump,-,-,-,-,-,-,-,40,-,-,
 Quesadilla Bomb Level 1,HL,50,100,30/40,Su,17,11,18,-17,-13,"Armor Break, 2"
 Quesadilla Bomb Level 2,HL,100,150,30/40,Su,17,11,18,-17,D,"Armor Break, 3.5"

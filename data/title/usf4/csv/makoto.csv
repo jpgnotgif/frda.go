@@ -29,7 +29,7 @@ Jump Toward Hard Punch,H,100,200,60,-,6,5,-,-,-
 Jump Toward Light Kick,H,40,50,20,-,4,9,-,-,-
 Jump Toward Medium Kick,H,80,100,40,-,7,5,-,-,-
 Jump Toward Hard Kick,H,100,200,60,-,9,5,-,-,-
-Lunge Punches (F+Hard Punch - Hard Punch),HL,50*80,50*100,20*20,-,7,3(3)5,18,-5,-1
+Lunge Punches (F+Hard Punch-Hard Punch),HL,50*80,50*100,20*20,-,7,3(3)5,18,-5,-1
 Light Kick - Medium Kick,HL,50,100,40,-,2,4,14,-4,-1
 F+Medium Kick - Hard Kick,HL,100,200,60,-,8,7,14,-3,1
 Focus Attack Level 1,HL,60,100,20,-,21,2,35,-21,-21

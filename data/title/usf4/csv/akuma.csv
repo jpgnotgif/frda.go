@@ -44,18 +44,18 @@ Red Fireball Hard Punch,HL,33x3,35x3,20/16x3,Su,25,-,63,-1,D,Pursuit Property
 Red Fireball EX,HL,47x3,70x2*100,-250/0,Su,25,-,50,12,D,Pursuit Property
 Air Fireball,HL,40,50,5/20,-,14,-,16,-,-,
 Air Fireball EX,HL,40*40,50,-250/0,-,8,-,9,-,-,
-Dragon Punch Light Punch,HL,100[70],100,30/40,Su,3,14,17+18,-28,D,"1~2f invincible, 3~16f low invuln, 3~4f unthrowable, 6~f airborne"
-Dragon Punch Medium Punch,HL,70*60,80*50,30/30*16,Su,3,2*12,25+18,-34,D,"1~5f invincible, 6~16f low invuln, 6~f airborne"
-Dragon Punch Hard Punch,HL,70*50*30,70*50*30,30/30*10*10,Su*Su,3,2*2*12,28+18,-37,D,"1~6f invincible, 7~18f low invuln, 8~f airborne"
-Dragon Punch EX,HL,80*60*50,100*50*50,-250/0,Su*Su,3,2*2*12,28+18,-37,D,"1~18f invincible, 8~f airborne"
-Hurricane Kick Light Kick,HL,70,50,20/20,-,11,2(6)2,12+8,-9,D,"7~20f projectile invincible, 7~f airborne, hits standing chars only"
-Hurricane Kick Medium Kick,HL,80*40*40,100*50*50,20/20*10*10,Su,5,2(5) [2(5)2] (5)1,16+12,-8,D,"7~26f projectile invincible, 7~f airborne, first hit forces stand"
-Hurricane Kick Hard Kick,HL,80*40x3,100*50x3,20/20*10x3,Su,5,2(5) [1(5)1] (5) [1(5)1] (5) 1,13+8,-1,D,"7~36f projectile invincible, 7~f airborne, first hit forces stand"
-Hurricane Kick EX,HL,40x5,50,-250/0,-,11,1(3) 1(3) 1(3) 1(3) 1,18+3,-1,D,"6~27f projectile invincible, all hits force stand, pursuit property"
-Hurricane Kick Light Kick (Air),HL,60,50,10/30,-,9,[2(6)2] (6)2,10,-,D,
-Hurricane Kick Medium Kick (Air),HL,70,50,10/30,-,9,[2(6)2] (6)2,4,-,D,
-Hurricane Kick Hard Kick (Air),HL,80,50,10/30,-,9,[2(6)2] (6)2,4,-,D,
-Hurricane Kick EX (Air),HL,40x5,50x5,-250/0,-,7,1(3) 1(3) 1(3) 1(3) 1,4,-,D,Pursuit Property
+Goshoryuken Light Punch,HL,100[70],100,30/40,Su,3,14,17+18,-28,D,"1~2f invincible, 3~16f low invuln, 3~4f unthrowable, 6~f airborne"
+Goshoryuken Medium Punch,HL,70*60,80*50,30/30*16,Su,3,2*12,25+18,-34,D,"1~5f invincible, 6~16f low invuln, 6~f airborne"
+Goshoryuken Hard Punch,HL,70*50*30,70*50*30,30/30*10*10,Su*Su,3,2*2*12,28+18,-37,D,"1~6f invincible, 7~18f low invuln, 8~f airborne"
+Goshoryuken EX,HL,80*60*50,100*50*50,-250/0,Su*Su,3,2*2*12,28+18,-37,D,"1~18f invincible, 8~f airborne"
+Tatsu Light Kick,HL,70,50,20/20,-,11,2(6)2,12+8,-9,D,"7~20f projectile invincible, 7~f airborne, hits standing chars only"
+Tatsu Medium Kick,HL,80*40*40,100*50*50,20/20*10*10,Su,5,2(5) [2(5)2] (5)1,16+12,-8,D,"7~26f projectile invincible, 7~f airborne, first hit forces stand"
+Tatsu Hard Kick,HL,80*40x3,100*50x3,20/20*10x3,Su,5,2(5) [1(5)1] (5) [1(5)1] (5) 1,13+8,-1,D,"7~36f projectile invincible, 7~f airborne, first hit forces stand"
+Tatsu EX,HL,40x5,50,-250/0,-,11,1(3) 1(3) 1(3) 1(3) 1,18+3,-1,D,"6~27f projectile invincible, all hits force stand, pursuit property"
+Tatsu Light Kick (Air),HL,60,50,10/30,-,9,[2(6)2] (6)2,10,-,D,
+Tatsu Medium Kick (Air),HL,70,50,10/30,-,9,[2(6)2] (6)2,4,-,D,
+Tatsu Hard Kick (Air),HL,80,50,10/30,-,9,[2(6)2] (6)2,4,-,D,
+Tatsu EX (Air),HL,40x5,50x5,-250/0,-,7,1(3) 1(3) 1(3) 1(3) 1,4,-,D,Pursuit Property
 Demon Flip,-,-,-,20/-,-,-,-,-,-,-,"5~39f airborne, 27~37f inputs accepted"
 Demon Flip EX,-,-,-,0/0,-,-,-,-,-,-,Tracks opponent
 Demon Flip Slide,L,100,200,0/40,-,39+7,15,14,-11,D,"Low attack, cannot fast recover"

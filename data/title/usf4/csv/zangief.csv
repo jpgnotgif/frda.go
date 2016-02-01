@@ -39,10 +39,10 @@ Focus Attack Level 2,HL,120,150,40,-,17+16,5,32,-15,D,
 Focus Attack Level 3,-,170,200,60,-,65,5,32,D,D,
 Forward Throw,0.9,160,180,40,-,3,2,20,-,D,Throw range 0.9
 Back Throw,0.9,160,180,40,-,3,2,20,-,D,Throw range 0.9
-Spinning Piledriver Light Punch,1.65,180,100,40/100,-,2,2,52,-,D,Throw range 1.65
-Spinning Piledriver Medium Punch,1.45,200,150,40/100,-,2,2,50,-,D,Throw range 1.45
-Spinning Piledriver Hard Punch,1.35,250,200,40/100,-,2,2,48,-,D,Throw range 1.35
-Spinning Piledriver EX,1.35,200,150,-250/0,-,4,2,47,-,D,"1~5 , Throw range 1.35"
+SPD Light Punch,1.65,180,100,40/100,-,2,2,52,-,D,Throw range 1.65
+SPD Medium Punch,1.45,200,150,40/100,-,2,2,50,-,D,Throw range 1.45
+SPD Hard Punch,1.35,250,200,40/100,-,2,2,48,-,D,Throw range 1.35
+SPD EX,1.35,200,150,-250/0,-,4,2,47,-,D,"1~5 , Throw range 1.35"
 Banishing Flat Light Punch,HL,120,100,30/30,Su,11,2,21,-7,-5,6~20
 Banishing Flat Medium Punch,HL,130,150,30/30,Su,13,2,22,-8,-6,8~22
 Banishing Flat Hard Punch,HL,140,200,30/30,Su,16,2,23,-9,-7,9~25
