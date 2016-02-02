@@ -69,13 +69,20 @@ func main() {
 	router.GET("/:title/:name", func(context *gin.Context) {
 		switch title := context.Param("title"); title {
 		case "usf4":
-			character, characterFound := usf4Map.characterMap[context.Param("name")]
-			if !characterFound {
-				context.JSON(404, gin.H{
-					"message": "character not found",
+			name := context.Param("name")
+			if strings.EqualFold(name, "characters") {
+				context.JSON(200, gin.H{
+					"characters": CharacterNames(title),
 				})
+			} else {
+				character, characterFound := usf4Map.characterMap[name]
+				if !characterFound {
+					context.JSON(404, gin.H{
+						"message": "character not found",
+					})
+				}
+				context.String(200, character.data)
 			}
-			context.String(200, character.data)
 		case "sfv":
 			context.JSON(501, gin.H{
 				"message": "coming soon",
@@ -87,5 +94,6 @@ func main() {
 		}
 
 	})
+
 	router.Run(":8080")
 }
