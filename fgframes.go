@@ -72,7 +72,7 @@ func main() {
 			name := context.Param("name")
 			if strings.EqualFold(name, "characters") {
 				context.JSON(200, gin.H{
-					"characters": CharacterNames(title),
+					"names": CharacterNames(title),
 				})
 			} else {
 				character, characterFound := usf4Map.characterMap[name]
