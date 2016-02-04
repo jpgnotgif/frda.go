@@ -42,7 +42,7 @@ Change of Direction EX,HL,40,50,-250/0,Su,16,3,25,-3,2,"1~18f armored, forces st
 Punch Change of Direction 2nd Hit,H,40,50,10/20,-,15,4,28,-9,-4,Mid attack
 Kick Change of Direction 2nd Hit,L,50,50,20/30,Su,22,4,24,-5,-1,Low attack
 Punch Change of Direction 3rd Hit,H,100,50,10/30,-,10,2,44,-35,D,Armor Break
-Kick Change of Direction 3nd Hit,L,150,100,30/30,-,22,2,53,-44,D,"Low attack, Armor Break"
+Kick Change of Direction 3rd Hit,L,150,100,30/30,-,22,2,53,-44,D,"Low attack, Armor Break"
 Kick Wheel Light Kick,H,120,200,30/40,-,20,7,2+19,-10,-5,"1~26f low invuln, 11f~ airborne, Forces stand, Mid attack"
 Kick Wheel Medium Kick,H,140,200,30/40,-,24,7,2+20,-11,-6,"1~30f low invuln, 14f~ airborne, Forces stand, Mid attack"
 Kick Wheel Hard Kick,H,160,200,30/40,-,27,7,1+22,-12,-7,"1~32f low invuln, 15f~ airborne, Forces stand, Mid attack"
