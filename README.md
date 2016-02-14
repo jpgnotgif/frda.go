@@ -1,4 +1,4 @@
-# fg-frames.go
+# fgframes.go
 A golang based, http web service that provides fighting game character frame data. A proof of concept service built as a means to explore golang and various http tool kits. This service only hosts Ultra Street Fighter 4 data at the moment, but will be expanded in time.
 
 ## Data sources
