@@ -63,15 +63,6 @@ cr|Crouching
 nj|Neutral Jump / Jump Up
 dj|Diagonal Jump / Jump Toward
 
-## Frame Data Legend
-Notation|Expanded
---------|--------
-s|Startup
-a|Active
-r|Recovery
-ba|Block Advantage
-ha|Hit Advantage
-
 ## Tech
 - [golang](https://golang.org/)
 - [gin gonic](https://gin-gonic.github.io/gin/)
