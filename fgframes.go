@@ -92,7 +92,6 @@ func main() {
 				"message": "title not found",
 			})
 		}
-
 	})
 
 	router.Run(":8080")

@@ -1,9 +1,5 @@
-# fgframes
-A golang based, http web service that provides fighting game character
-frame data. A proof of concept service built as a means to explore
-golang and various http tool kits. This service only hosts Ultra Street
-Fighter 4 version 1.05 data at the moment, but will be expanded to
-include other games in the future.
+# fg-frames.go
+A golang based, http web service that provides fighting game character frame data. A proof of concept service built as a means to explore golang and various http tool kits. This service only hosts Ultra Street Fighter 4 data at the moment, but will be expanded in time.
 
 ## Data sources
 - [eventhubs](http://www.eventhubs.com/moves/sf4/)
@@ -14,28 +10,39 @@ The compiled data used by this service can be found here
 
 ## Bootstrap
 - [Install golang](https://golang.org/doc/install)
-- Clone this repo
-- Generate the binary
-
+- Build, install and run server
 ```
 $ go install github.com/jpgnotgif/fgframes
-$ GOPATH/bin/fgframes
+$ ./$GOPATH/bin/fgframes
 ```
 
 ## JSON Schema
 ```
 {
   normal-attack: {
-    standing: { startup: num, active: num, recovery: num,
-block-advantage: num, hit-advantage: num }
-    close standing: {...}
-    crouching: {...}
-    neutral jump: {...}
-    diagonal jump: {...}
+    s: <signed_integer>,
+    a: <signed_integer>,
+    r: <signed_integer>,
+    ba: <signed_integer>,
+    ha: <signed_integer>
+  },
+  unique-attack: {
+    s: <signed_integer>,
+    a: <signed_integer>,
+    r: <signed_integer>,
+    ba: <signed_integer>,
+    ha: <signed_integer>
   }
-  unique-attack: {...}
 }
 ```
+## Frame Data Legend
+Notation|Expanded
+--------|--------
+s|Startup
+a|Active
+r|Recovery
+ba|Block Advantage
+ha|Hit Advantage
 
 ## Attack Legend
 Notation|Expanded
