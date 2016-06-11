@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"github.com/gin-gonic/gin"
 	"io/ioutil"
 	"path/filepath"
@@ -12,6 +13,7 @@ const BasePath = "data/title"
 type TitleMap struct {
 	name         string
 	characterMap map[string]Character
+	dataPath     string
 }
 
 type Character struct {
@@ -64,7 +66,11 @@ func FindData(title string, name string) (bool, string) {
 
 func main() {
 	router := gin.Default()
-	usf4Map := TitleMap{name: "usf4", characterMap: BuildData("usf4")}
+
+	var dataPath = flag.String("dataPath", "data/title", "File system location for frame data")
+	flag.Parse()
+
+	usf4Map := TitleMap{name: "usf4", characterMap: BuildData("usf4"), dataPath: dataPath}
 
 	router.GET("/:title/:name", func(context *gin.Context) {
 		switch title := context.Param("title"); title {
